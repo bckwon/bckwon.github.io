@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 on Bum Chul Kwon</title>
+    <link>https://bckwon.com/publication_types/0/</link>
+    <description>Recent content in 0 on Bum Chul Kwon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Bum Chul Kwon</copyright>
+    <lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication_types/0/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Off-Screen Visualization Perspectives: Tasks and Challenges</title>
+      <link>https://bckwon.com/publication/offscreen_perspectives/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/offscreen_perspectives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReVACNN: Real-Time Visual Analytics for Convolutional Neural Network</title>
+      <link>https://bckwon.com/publication/revacnn/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/revacnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Taxonomy for Evaluating User Engagement in Information Visualization</title>
+      <link>https://bckwon.com/publication/taxonomy_engagement/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/taxonomy_engagement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peekquence: Visual Analytics for Event Sequence Data</title>
+      <link>https://bckwon.com/publication/peekquence/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/peekquence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opinion Marks: A Human-Based Computation Approach to Instill Structure into Unstructured Text on the Web</title>
+      <link>https://bckwon.com/publication/om/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/om/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VisJockey: Enriching Data Stories through Orchestrated Interactive Visualization</title>
+      <link>https://bckwon.com/publication/visjockey/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/visjockey/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

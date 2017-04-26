@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Bum Chul Kwon</title>
+    <link>https://bckwon.com/publication_types/1/</link>
+    <description>Recent content in 1 on Bum Chul Kwon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Bum Chul Kwon</copyright>
+    <lastBuildDate>Sun, 01 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Comparative Evaluation on Online Learning Approaches using Parallel Coordinate Visualization</title>
+      <link>https://bckwon.com/publication/tivy/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/tivy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spherical similarity explorer for comparative case analysis</title>
+      <link>https://bckwon.com/publication/spherical/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/spherical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ambient Grids: Maintain Context-Awareness via Aggregated Off-Screen Visualization</title>
+      <link>https://bckwon.com/publication/ambient/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/ambient/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigating the Efficacy of Crowdsourcing on Evaluating Visual Decision Supporting System</title>
+      <link>https://bckwon.com/publication/crowdsourcing_efficacy/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/crowdsourcing_efficacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Direct Manipulation Through Surrogate Objects</title>
+      <link>https://bckwon.com/publication/surrogate_interaction/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/surrogate_interaction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual analytic roadblocks for novice investigators</title>
+      <link>https://bckwon.com/publication/roadblock/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/roadblock/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
