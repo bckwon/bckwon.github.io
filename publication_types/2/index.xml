@@ -7,8 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Bum Chul Kwon</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication_types/2/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Clustervision: Visual Supervision of Unsupervised Clustering</title>
+      <link>https://bckwon.com/publication/clustervision/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/clustervision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toward Predicting Social Support Needs in Online Health Social Networks</title>
+      <link>https://bckwon.com/publication/ohsn/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/ohsn/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AxiSketcher: Interactive Nonlinear Axis Mapping of Visualizations through User Drawings</title>
@@ -124,24 +142,6 @@
       <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/dietary_intervention_review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visual Analytics for Multimodal Social Network Analysis: A Design Study with Social Scientists</title>
-      <link>https://bckwon.com/publication/multimodal/</link>
-      <pubDate>Wed, 16 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/multimodal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReadingMate: The Effect of the Content Stabilizing Technique, Font Size, and Interline Spacing on the Letter-Counting Task Performance of Treadmill Runners</title>
-      <link>https://bckwon.com/publication/readingmate/</link>
-      <pubDate>Wed, 10 Apr 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/readingmate/</guid>
       <description></description>
     </item>
     

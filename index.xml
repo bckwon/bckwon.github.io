@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Clustervision: Visual Supervision of Unsupervised Clustering</title>
+      <link>https://bckwon.com/publication/clustervision/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/clustervision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toward Predicting Social Support Needs in Online Health Social Networks</title>
+      <link>https://bckwon.com/publication/ohsn/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/ohsn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>AxiSketcher: Interactive Nonlinear Axis Mapping of Visualizations through User Drawings</title>
       <link>https://bckwon.com/publication/axisketcher/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
@@ -124,24 +142,6 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/uncertainty_trust_model/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VisOHC: Designing Visual Analytics for Online Health Communities</title>
-      <link>https://bckwon.com/publication/visohc/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/visohc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Do People Really Experience Information Overload While Reading Online Reviews?</title>
-      <link>https://bckwon.com/publication/overload/</link>
-      <pubDate>Wed, 12 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/overload/</guid>
       <description></description>
     </item>
     
