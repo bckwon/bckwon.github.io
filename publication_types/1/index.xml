@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Bum Chul Kwon</copyright>
     <lastBuildDate>Sun, 01 May 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://bckwon.com/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>A Comparative Evaluation on Online Learning Approaches using Parallel Coordinate Visualization</title>

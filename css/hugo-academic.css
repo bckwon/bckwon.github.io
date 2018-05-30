@@ -422,7 +422,7 @@ article {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   padding: 2px 5px;
   color: #fff;
@@ -1131,9 +1131,18 @@ div.alert a:hover {
 }
 
 .main-author{
-  font-weight: 700;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .main-publication-venue{
   /*font-style: italic;*/
+}
+
+video::-webkit-media-controls {
+    overflow: hidden !important
+}
+video::-webkit-media-controls-enclosure {
+    width: calc(100% + 32px);
+    margin-left: auto;
 }

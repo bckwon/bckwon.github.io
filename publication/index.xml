@@ -8,7 +8,18 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Bum Chul Kwon</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://bckwon.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RetainVis: Visual Analytics with Interpretable and Interactive Recurrent Neural Networks on Electronic Medical Records</title>
+      <link>https://bckwon.com/publication/retainvis/</link>
+      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/retainvis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Clustervision: Visual Supervision of Unsupervised Clustering</title>
@@ -142,6 +153,150 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/uncertainty_trust_model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VisOHC: Designing Visual Analytics for Online Health Communities</title>
+      <link>https://bckwon.com/publication/visohc/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/visohc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do People Really Experience Information Overload While Reading Online Reviews?</title>
+      <link>https://bckwon.com/publication/overload/</link>
+      <pubDate>Wed, 12 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/overload/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opinion Marks: A Human-Based Computation Approach to Instill Structure into Unstructured Text on the Web</title>
+      <link>https://bckwon.com/publication/om/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/om/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What Are the Causes of Noncompliance Behaviors in Bar Code Medication Administration System Processes?</title>
+      <link>https://bckwon.com/publication/noncompliance/</link>
+      <pubDate>Tue, 31 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/noncompliance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ambient Grids: Maintain Context-Awareness via Aggregated Off-Screen Visualization</title>
+      <link>https://bckwon.com/publication/ambient/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/ambient/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>State-of-the-art Report Of Visual Analysis For Event Detection In Text Data Streams</title>
+      <link>https://bckwon.com/publication/event_detection_text/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/event_detection_text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge Generation Model for Visual Analytics</title>
+      <link>https://bckwon.com/publication/knowledge_generation/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/knowledge_generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VisJockey: Enriching Data Stories through Orchestrated Interactive Visualization</title>
+      <link>https://bckwon.com/publication/visjockey/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/visjockey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Review Of Web‐based Dietary Interventions: From The Human–Computer Interaction Practitioners&#39; Perspective</title>
+      <link>https://bckwon.com/publication/dietary_intervention_review/</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/dietary_intervention_review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Analytics for Multimodal Social Network Analysis: A Design Study with Social Scientists</title>
+      <link>https://bckwon.com/publication/multimodal/</link>
+      <pubDate>Wed, 16 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/multimodal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReadingMate: The Effect of the Content Stabilizing Technique, Font Size, and Interline Spacing on the Letter-Counting Task Performance of Treadmill Runners</title>
+      <link>https://bckwon.com/publication/readingmate/</link>
+      <pubDate>Wed, 10 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/readingmate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating the Role of Time in Investigative Analysis of Document Collections</title>
+      <link>https://bckwon.com/publication/timeinvestigator/</link>
+      <pubDate>Mon, 19 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/timeinvestigator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Food for the Heart: Lessons Learned while Designing a Visual Decision Support System for Patients with Coronary Heart Disease</title>
+      <link>https://bckwon.com/publication/food_for_the_heart/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/food_for_the_heart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigating the Efficacy of Crowdsourcing on Evaluating Visual Decision Supporting System</title>
+      <link>https://bckwon.com/publication/crowdsourcing_efficacy/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/crowdsourcing_efficacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Direct Manipulation Through Surrogate Objects</title>
+      <link>https://bckwon.com/publication/surrogate_interaction/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/surrogate_interaction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual analytic roadblocks for novice investigators</title>
+      <link>https://bckwon.com/publication/roadblock/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/roadblock/</guid>
       <description></description>
     </item>
     
