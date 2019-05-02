@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bum Chul Kwon on Bum Chul Kwon</title>
@@ -7,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Bum Chul Kwon</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DPVis: Visual Exploration of Disease Progression Pathways</title>
+      <link>https://bckwon.com/publication/dpvis/</link>
+      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/dpvis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Correlation between Users&#39; Cognitive Characteristics and Visualization Literacy</title>
@@ -133,15 +141,6 @@
       <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/tivy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spherical similarity explorer for comparative case analysis</title>
-      <link>https://bckwon.com/publication/spherical/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/spherical/</guid>
       <description></description>
     </item>
     
