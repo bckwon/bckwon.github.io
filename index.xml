@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Geono-Cluster: Interactive Visual Cluster Analysis for Biologists</title>
+      <link>https://bckwon.com/publication/geono-cluster/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/geono-cluster/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DPVis: Visual Analytics with Hidden Markov Models for Disease Progression Pathways</title>
@@ -132,15 +141,6 @@
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/revacnn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Towards a Taxonomy for Evaluating User Engagement in Information Visualization</title>
-      <link>https://bckwon.com/publication/taxonomy_engagement/</link>
-      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/taxonomy_engagement/</guid>
       <description></description>
     </item>
     
