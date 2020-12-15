@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Thu, 16 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://bckwon.com/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Modeling Disease Progression Trajectories from Longitudinal Observational Data</title>
+      <link>https://bckwon.com/publication/hmm/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/hmm/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GUIComp: A GUI Design Assistant with Real-Time, Multi-Faceted Feedback</title>

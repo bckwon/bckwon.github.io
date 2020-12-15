@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Sat, 27 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Modeling Disease Progression Trajectories from Longitudinal Observational Data</title>
+      <link>https://bckwon.com/publication/hmm/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/hmm/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Geono-Cluster: Interactive Visual Cluster Analysis for Biologists</title>
@@ -132,15 +141,6 @@
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/offscreen_perspectives/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReVACNN: Real-Time Visual Analytics for Convolutional Neural Network</title>
-      <link>https://bckwon.com/publication/revacnn/</link>
-      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/revacnn/</guid>
       <description></description>
     </item>
     
