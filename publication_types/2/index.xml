@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Sat, 27 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://bckwon.com/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Improving Heart Disease Risk Through Quality-Focused Diet Logging: Pre-Post Study of a Diet Quality Tracking App</title>
+      <link>https://bckwon.com/publication/dietapp/</link>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/dietapp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Geono-Cluster: Interactive Visual Cluster Analysis for Biologists</title>

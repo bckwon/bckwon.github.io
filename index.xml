@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Dec 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Improving Heart Disease Risk Through Quality-Focused Diet Logging: Pre-Post Study of a Diet Quality Tracking App</title>
+      <link>https://bckwon.com/publication/dietapp/</link>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/dietapp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Modeling Disease Progression Trajectories from Longitudinal Observational Data</title>
@@ -132,15 +141,6 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/visexpress/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Off-Screen Visualization Perspectives: Tasks and Challenges</title>
-      <link>https://bckwon.com/publication/offscreen_perspectives/</link>
-      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/offscreen_perspectives/</guid>
       <description></description>
     </item>
     
