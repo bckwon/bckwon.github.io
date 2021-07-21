@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://bckwon.com/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VATUN: Visual Analytics for Testing and Understanding Convolutional Neural Networks</title>
+      <link>https://bckwon.com/publication/vatun/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/vatun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wait, Let&#39;s Think about Your Purchase Again: A Study on Interventions for Supporting Self-Controlled Online Purchases</title>
+      <link>https://bckwon.com/publication/purchase/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/purchase/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Modeling Disease Progression Trajectories from Longitudinal Observational Data</title>

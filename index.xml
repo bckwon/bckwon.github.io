@@ -6,8 +6,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Wed, 23 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>VATUN: Visual Analytics for Testing and Understanding Convolutional Neural Networks</title>
+      <link>https://bckwon.com/publication/vatun/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/vatun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wait, Let&#39;s Think about Your Purchase Again: A Study on Interventions for Supporting Self-Controlled Online Purchases</title>
+      <link>https://bckwon.com/publication/purchase/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/purchase/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Improving Heart Disease Risk Through Quality-Focused Diet Logging: Pre-Post Study of a Diet Quality Tracking App</title>
@@ -123,24 +141,6 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/samplify/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VLAT: Development of a Visualization Literacy Assessment Test</title>
-      <link>https://bckwon.com/publication/vlat/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/vlat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VisExpress: Visual exploration of differential gene expression data</title>
-      <link>https://bckwon.com/publication/visexpress/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/visexpress/</guid>
       <description></description>
     </item>
     
