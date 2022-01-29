@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://bckwon.com/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Roslingifier: Semi-Automated Storytelling for Animated Scatterplots</title>
+      <link>https://bckwon.com/publication/roslingifier/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/roslingifier/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Design And User Experience Testing Of A Polygenic Score Report: A Qualitative Study Of Prospective Users</title>
