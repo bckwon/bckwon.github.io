@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Mar 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Progression of type 1 diabetes from latency to symptomatic disease is predicted by distinct autoimmune trajectories</title>
+      <link>https://bckwon.com/publication/autoimmune-trajectories/</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/autoimmune-trajectories/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Roslingifier: Semi-Automated Storytelling for Animated Scatterplots</title>
@@ -132,15 +141,6 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/clustervision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Toward Predicting Social Support Needs in Online Health Social Networks</title>
-      <link>https://bckwon.com/publication/ohsn/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/ohsn/</guid>
       <description></description>
     </item>
     
