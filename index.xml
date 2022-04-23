@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Mon, 21 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DASH: Visual Analytics for Debiasing Image Classification via User-Driven Synthetic Data Augmentation</title>
+      <link>https://bckwon.com/publication/dash/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/dash/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Progression of type 1 diabetes from latency to symptomatic disease is predicted by distinct autoimmune trajectories</title>
@@ -132,15 +141,6 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/retainvis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Clustervision: Visual Supervision of Unsupervised Clustering</title>
-      <link>https://bckwon.com/publication/clustervision/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/clustervision/</guid>
       <description></description>
     </item>
     

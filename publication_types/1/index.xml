@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://bckwon.com/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DASH: Visual Analytics for Debiasing Image Classification via User-Driven Synthetic Data Augmentation</title>
+      <link>https://bckwon.com/publication/dash/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/dash/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>VATUN: Visual Analytics for Testing and Understanding Convolutional Neural Networks</title>
