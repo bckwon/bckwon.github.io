@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Mon, 21 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 May 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://bckwon.com/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Human-centered explainability for life sciences, healthcare, and medical informatics</title>
+      <link>https://bckwon.com/publication/human-centered-explainability/</link>
+      <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/human-centered-explainability/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Progression of type 1 diabetes from latency to symptomatic disease is predicted by distinct autoimmune trajectories</title>
