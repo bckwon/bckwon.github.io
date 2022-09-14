@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Fri, 22 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Sep 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>RMExplorer: A Visual Analytics Approach to Explore the Performance and the Fairness of Disease Risk Models on Population Subgroups</title>
+      <link>https://bckwon.com/publication/rmexplorer/</link>
+      <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/rmexplorer/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Prediction Performance And Fairness Heterogeneity In Cardiovascular Risk Models</title>
@@ -132,15 +141,6 @@
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/sanvis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thumbnails for Data Stories: A Survey of Current Practices</title>
-      <link>https://bckwon.com/publication/thumbnails/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/thumbnails/</guid>
       <description></description>
     </item>
     
