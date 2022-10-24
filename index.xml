@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Wed, 14 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Oct 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ConceptExplainer: Interactive Explanation for Deep Neural Networks from a Concept Perspective</title>
+      <link>https://bckwon.com/publication/conceptexplainer/</link>
+      <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/conceptexplainer/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>RMExplorer: A Visual Analytics Approach to Explore the Performance and the Fairness of Disease Risk Models on Population Subgroups</title>
@@ -132,15 +141,6 @@
       <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/guicomp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SANVis: Visual Analytics for Understanding Self-Attention Networks</title>
-      <link>https://bckwon.com/publication/sanvis/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/sanvis/</guid>
       <description></description>
     </item>
     
