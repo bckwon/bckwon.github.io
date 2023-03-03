@@ -6,8 +6,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Mon, 21 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Causalvis: Visualizations for Causal Inference</title>
+      <link>https://bckwon.com/publication/causalvis/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/causalvis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ConceptExplainer: Interactive Explanation for Deep Neural Networks from a Concept Perspective</title>
+      <link>https://bckwon.com/publication/conceptexplainer/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/conceptexplainer/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Islet Autoantibody Levels Differentiate Progression Trajectories in Individuals With Presymptomatic Type 1 Diabetes</title>
@@ -15,15 +33,6 @@
       <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/iab-levels-differentiate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ConceptExplainer: Interactive Explanation for Deep Neural Networks from a Concept Perspective</title>
-      <link>https://bckwon.com/publication/conceptexplainer/</link>
-      <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/conceptexplainer/</guid>
       <description></description>
     </item>
     
@@ -132,15 +141,6 @@
       <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/geono-cluster/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DPVis: Visual Analytics with Hidden Markov Models for Disease Progression Pathways</title>
-      <link>https://bckwon.com/publication/dpvis/</link>
-      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/dpvis/</guid>
       <description></description>
     </item>
     

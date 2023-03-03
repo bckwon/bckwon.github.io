@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Bum Chul Kwon</copyright>
-    <lastBuildDate>Mon, 21 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://bckwon.com/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ConceptExplainer: Interactive Explanation for Deep Neural Networks from a Concept Perspective</title>
+      <link>https://bckwon.com/publication/conceptexplainer/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/conceptexplainer/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Islet Autoantibody Levels Differentiate Progression Trajectories in Individuals With Presymptomatic Type 1 Diabetes</title>
@@ -18,15 +27,6 @@
       <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/iab-levels-differentiate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ConceptExplainer: Interactive Explanation for Deep Neural Networks from a Concept Perspective</title>
-      <link>https://bckwon.com/publication/conceptexplainer/</link>
-      <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/conceptexplainer/</guid>
       <description></description>
     </item>
     
