@@ -6,8 +6,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2023 Bum Chul Kwon</copyright>
-    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SPARK: Harnessing Human-Centered Workflows with Biomedical Foundation Models for Drug Discovery</title>
+      <link>https://bckwon.com/publication/spark/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/spark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MiMICRI: Towards Domain-centered Counterfactual Explanations of Cardiovascular Image Classification Models</title>
+      <link>https://bckwon.com/publication/mimicri/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/mimicri/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Finspector: A Human-Centered Visual Inspection Tool for Exploring and Comparing Biases among Foundation Models</title>
@@ -123,24 +141,6 @@
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/vatun/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wait, Let&#39;s Think about Your Purchase Again: A Study on Interventions for Supporting Self-Controlled Online Purchases</title>
-      <link>https://bckwon.com/publication/purchase/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/purchase/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Improving Heart Disease Risk Through Quality-Focused Diet Logging: Pre-Post Study of a Diet Quality Tracking App</title>
-      <link>https://bckwon.com/publication/dietapp/</link>
-      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/dietapp/</guid>
       <description></description>
     </item>
     
