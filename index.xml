@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2023 Bum Chul Kwon</copyright>
-    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DG Comics: Semi-Automatically Authoring Graph Comics for Dynamic Graphs</title>
+      <link>https://bckwon.com/publication/dgcomics/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/dgcomics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SPARK: Harnessing Human-Centered Workflows with Biomedical Foundation Models for Drug Discovery</title>
@@ -132,15 +141,6 @@
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/polygenic-score-report/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VATUN: Visual Analytics for Testing and Understanding Convolutional Neural Networks</title>
-      <link>https://bckwon.com/publication/vatun/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/vatun/</guid>
       <description></description>
     </item>
     
