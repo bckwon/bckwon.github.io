@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2024 Bum Chul Kwon</copyright>
-    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>PromptAid: Visual Prompt Exploration, Perturbation, Testing and Iteration for Large Language Models</title>
+      <link>https://bckwon.com/publication/promptaid/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/promptaid/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DG Comics: Semi-Automatically Authoring Graph Comics for Dynamic Graphs</title>
@@ -132,15 +141,6 @@
       <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/roslingifier/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design And User Experience Testing Of A Polygenic Score Report: A Qualitative Study Of Prospective Users</title>
-      <link>https://bckwon.com/publication/polygenic-score-report/</link>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/polygenic-score-report/</guid>
       <description></description>
     </item>
     
