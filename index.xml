@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2024 Bum Chul Kwon</copyright>
-    <lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>An Autoethnography on Visualization Literacy: A Wicked Measurement Problem</title>
+      <link>https://bckwon.com/publication/autoethnography_visualization_literacy/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/autoethnography_visualization_literacy/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Critical Analysis of the Usage of Dimensionality Reduction in Four Domains</title>
@@ -132,15 +141,6 @@
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/dash/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Progression Of Type 1 Diabetes From Latency To Symptomatic Disease Is Predicted By Distinct Autoimmune Trajectories</title>
-      <link>https://bckwon.com/publication/autoimmune-trajectories/</link>
-      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/autoimmune-trajectories/</guid>
       <description></description>
     </item>
     
