@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2024 Bum Chul Kwon</copyright>
-    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Multi-view biomedical foundation models for molecule-target and property prediction</title>
+      <link>https://bckwon.com/publication/multiviews/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://bckwon.com/publication/multiviews/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An Autoethnography on Visualization Literacy: A Wicked Measurement Problem</title>
@@ -132,15 +141,6 @@
       <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bckwon.com/publication/human-centered-explainability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DASH: Visual Analytics for Debiasing Image Classification via User-Driven Synthetic Data Augmentation</title>
-      <link>https://bckwon.com/publication/dash/</link>
-      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bckwon.com/publication/dash/</guid>
       <description></description>
     </item>
     
