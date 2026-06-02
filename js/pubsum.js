@@ -1474,7 +1474,7 @@ class PubVis {
           : poly => self._handleNetLasso(poly);
         self._addLasso(cb, allowOnBlocks, event);
       }
-    });
+    }, { passive: false });
   }
 
   _removeInteractions() {
@@ -1561,7 +1561,8 @@ class PubVis {
     if (this._lassoOn) return;
     this._lassoOn = true;
     const self = this;
-    let pts = [], lpath = null;
+    let pts = [], lpath = null, _touchOrigin = null;
+    const DRAG_THRESHOLD = 8; // SVG-coordinate pixels before touch lasso path appears
 
     /* Extract SVG coordinates from either a mouse event or a Touch object */
     const _getPoint = (event) => {
@@ -1583,12 +1584,6 @@ class PubVis {
         .attr('d', `M ${pts[0].map(v => v.toFixed(1)).join(',')} Z`);
     };
 
-    const _extendLasso = (event) => {
-      if (!lpath) return;
-      pts.push(_getPoint(event));
-      lpath.attr('d', 'M' + pts.map(p => p.map(v => v.toFixed(1)).join(',')).join('L') + 'Z');
-    };
-
     const _endLasso = () => {
       if (!lpath) return;
       lpath.remove(); lpath = null;
@@ -1603,7 +1598,11 @@ class PubVis {
     };
 
     /* if forwarded from a playing-click/tap, start the lasso immediately */
-    if (startEvent) _startLasso(startEvent);
+    if (startEvent) {
+      _startLasso(startEvent);
+      /* For touch forwarding: set _touchOrigin so touchmove events extend the path */
+      if (startEvent.touches || startEvent.changedTouches) _touchOrigin = pts[0];
+    }
 
     /* ── Mouse events ──────────────────────────────────────────────────── */
     /* Attach to svg so empty-space drags register (<g> has no fill). */
@@ -1619,7 +1618,8 @@ class PubVis {
     d3.select(window).on('mousemove.lasso', function(event) {
       if (!lpath) return;
       event.preventDefault();
-      _extendLasso(event);
+      pts.push(d3.pointer(event, self.g.node()));
+      lpath.attr('d', 'M' + pts.map(p => p.map(v => v.toFixed(1)).join(',')).join('L') + 'Z');
     });
 
     d3.select(window).on('mouseup.lasso', function() {
@@ -1627,34 +1627,64 @@ class PubVis {
     });
 
     /* ── Touch events ──────────────────────────────────────────────────── */
-    /* Touch events stay bound to the element where the touch started, so
-       listening on the SVG covers the full drag even if the finger moves out.
-       event.preventDefault() on touchstart prevents the browser scroll gesture
-       for the entire touch sequence (requires a non-passive listener, which is
-       D3's default for element-level listeners). */
+    /* Two fixes for mobile:
+       1. touch-action:none on the SVG tells Chrome not to claim the gesture
+          for scrolling before our handlers run (Safari works without it but
+          Chrome requires it). { passive:false } is belt-and-suspenders so
+          event.preventDefault() is honoured in all browsers.
+       2. Drag threshold: lasso path is created only after the finger has moved
+          ≥ DRAG_THRESHOLD px. A brief tap (no movement) is instead treated as
+          a "touch-out" that clears the current filter selection. */
+    this.svg.style('touch-action', 'none');
+
     this.svg.on('touchstart.lasso', function(event) {
       if (event.touches.length !== 1) return;
       if (event.target.closest('.pv-node')) return;
       if (!allowOnBlocks && event.target.closest('path.pv-block')) return;
       event.preventDefault();
-      _startLasso(event);
-    });
+      _touchOrigin = _getPoint(event);
+      pts = [_touchOrigin]; // record start — lpath created only after drag threshold
+    }, { passive: false });
 
     this.svg.on('touchmove.lasso', function(event) {
-      if (!lpath) return;
+      if (!_touchOrigin) return;
       event.preventDefault();
-      _extendLasso(event);
-    });
+      const pt = _getPoint(event);
+      if (!lpath) {
+        /* Only start drawing once the finger has actually dragged */
+        const dx = pt[0] - _touchOrigin[0], dy = pt[1] - _touchOrigin[1];
+        if (dx * dx + dy * dy < DRAG_THRESHOLD * DRAG_THRESHOLD) return;
+        lpath = self.g.append('path').attr('class', 'pv-lasso')
+          .attr('fill', self._c('lassoBg')).attr('stroke', self._c('lassoStroke'))
+          .attr('stroke-width', 1.5).attr('stroke-dasharray', '5,3')
+          .attr('pointer-events', 'none')
+          .attr('d', `M ${pts[0].map(v => v.toFixed(1)).join(',')} Z`);
+      }
+      pts.push(pt);
+      lpath.attr('d', 'M' + pts.map(p => p.map(v => v.toFixed(1)).join(',')).join('L') + 'Z');
+    }, { passive: false });
 
     this.svg.on('touchend.lasso touchcancel.lasso', function(event) {
-      event.preventDefault();
-      _endLasso();
-    });
+      if (!_touchOrigin) return;
+      _touchOrigin = null;
+      if (lpath) {
+        /* Finger dragged → complete the lasso selection */
+        _endLasso();
+      } else {
+        /* Brief tap (no drag) → treat as touch-out: clear filter if on empty space */
+        pts = [];
+        const touch = event.changedTouches && event.changedTouches[0];
+        if (touch && !touch.target.closest('path.pv-block, .pv-node, circle')) {
+          if (!self._lassoFired) self._clearFilter();
+        }
+      }
+    }, { passive: false });
   }
 
   _removeLasso() {
     if (!this._lassoOn) return;
     this._lassoOn = false;
+    this.svg.style('touch-action', null);
     this.svg.on('mousedown.lasso', null);
     this.svg.on('touchstart.lasso', null).on('touchmove.lasso', null)
       .on('touchend.lasso', null).on('touchcancel.lasso', null);
