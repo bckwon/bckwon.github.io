@@ -351,6 +351,8 @@ class PubVis {
         citation_count: +d.citation_count,
         x: +d.x, y: +d.y,
         cluster_index:  +d.cluster_index,
+        center_x:       +d.center_x,
+        center_y:       +d.center_y,
       }));
     } catch (e) {
       console.error('PubVis: cannot load /data/pubvis.csv', e);
@@ -588,6 +590,12 @@ class PubVis {
   }
 
   _prerunForce() {
+    /* ── Scene 1: scale pre-computed normalized positions to actual canvas ── */
+    this.data.forEach(d => {
+      d._s1x = d.center_x * this.W;
+      d._s1y = d.center_y * this.H;
+    });
+
     const BS = PubVis.BS, step = BS + PubVis.GAP;
     const perRow = Math.floor(this.W / step);
     const topRows = Math.ceil(this.data.length / perRow);
@@ -734,6 +742,43 @@ class PubVis {
       .on('end', () => { this.annotG.selectAll('*').remove(); if (done) done(); });
   }
 
+  /* Rich annotation: bold title + rows of [colored swatch] label text.
+     Used by brush (venue breakdown) and lasso (cluster / author breakdown). */
+  _showRichAnnotation(title, rows, opts = {}) {
+    const cx = opts.x != null ? opts.x : this.W / 2;
+    const cy = opts.y != null ? opts.y : this.H / 2;
+    const fs = 10.5, lh = 14;
+
+    this.annotG.selectAll('*').remove();
+    const bg = this.annotG.append('rect').attr('rx', 6)
+      .attr('fill', this._c('annotBg')).attr('stroke', this._c('annotBorder'))
+      .attr('stroke-width', 1).style('filter', 'drop-shadow(0 2px 6px rgba(0,0,0,0.09))');
+
+    const tg = this.annotG.append('g');
+
+    tg.append('text').attr('x', 0).attr('y', 0)
+      .attr('fill', this._c('annotTitle')).attr('font-size', fs + 1).attr('font-weight', 600)
+      .attr('font-family', 'Inter, system-ui, sans-serif').text(title);
+
+    rows.forEach(({ color, label }, i) => {
+      const ry = (i + 1) * lh + 3;
+      tg.append('rect').attr('x', 0).attr('y', ry - 8).attr('width', 8).attr('height', 8)
+        .attr('rx', 1).attr('fill', color);
+      tg.append('text').attr('x', 11).attr('y', ry)
+        .attr('fill', this._c('annotSub')).attr('font-size', fs - 0.5)
+        .attr('font-family', 'Inter, system-ui, sans-serif').text(label);
+    });
+
+    const bb = tg.node().getBBox();
+    const px = 14, py = 10;
+    const bw = bb.width + px * 2, bh = bb.height + py * 2;
+    const bx = cx - bw / 2, by = cy - bh / 2;
+    bg.attr('x', bx).attr('y', by).attr('width', bw).attr('height', bh);
+    tg.attr('transform', `translate(${bx + px - bb.x}, ${by + py - bb.y})`);
+
+    this.annotG.style('opacity', 0).transition().duration(T.ANNOT_IN).style('opacity', 1);
+  }
+
   _venueColor(v) { return PV_COLORS.venue[v] || PV_COLORS.venueOther; }
 
   /* ══════════════════════════════════════════════════════════════════════
@@ -849,10 +894,14 @@ class PubVis {
   /* ── Instant snap renderers ───────────────────────────────────────── */
 
   _snapS1() {
-    const cx = this.W / 2, cy = this.H / 2;
-    this.blocks.attr('d', () => this._sq(cx, cy, PubVis.BS, PubVis.BS))
+    this.blocks.attr('d', d => this._sq(d._s1x, d._s1y, PubVis.BS, PubVis.BS))
       .attr('fill', this._c('blockFill')).attr('stroke', this._c('blockStroke')).attr('stroke-width', 0.5)
       .attr('opacity', 0.88);
+    this._showAnnotation([
+      `${this.data.length} publications & counting`,
+      'A journey of research with bright collaborators over the years',
+    ], { y: this.H * 0.1 });
+    this.annotG.interrupt().style('opacity', 1);
   }
 
   _snapS2() {
@@ -903,6 +952,8 @@ class PubVis {
     this._drawXAxis(xBand, '← more cited  ·  rank  ·  less cited →');
     this._drawYAxis(this.yScale4, 'Citations');
     this.xAxisG.style('opacity', 1); this.yAxisG.style('opacity', 1);
+    this._showLegend(this._venueLegendEntries());
+    this.legendG.interrupt().style('opacity', 1);
   }
 
   _snapS5() {
@@ -990,11 +1041,18 @@ class PubVis {
   _scene1() {
     this.currentScene = 1; this._sceneReady = false;
     this._updateUI();
-    const cx = this.W / 2, cy = this.H / 2;
-    this.blocks.attr('d', () => this._sq(cx, cy, PubVis.BS, PubVis.BS))
+    this.blocks
       .attr('fill', this._c('blockFill')).attr('stroke', this._c('blockStroke')).attr('stroke-width', 0.5);
-    this.blocks.transition().delay((d, i) => i * T.BLOCK_STAGGER).duration(280).attr('opacity', 0.88);
-    this._sched(() => this._sceneComplete(), this.data.length * T.BLOCK_STAGGER + 280 + 200);
+    this.blocks.transition().delay((d, i) => i * T.BLOCK_STAGGER).duration(400)
+      .attr('opacity', 0.88)
+      .attr('d', d => this._sq(d._s1x, d._s1y, PubVis.BS, PubVis.BS));
+    this._sched(() => {
+      this._showAnnotation([
+        `${this.data.length} publications & counting`,
+        'A journey of research with bright collaborators over the years',
+      ], { y: this.H * 0.1 });
+      this._sched(() => this._sceneComplete(), 1200);
+    }, this.data.length * T.BLOCK_STAGGER + 400 + 200);
   }
 
   _scene2() {
@@ -1045,7 +1103,6 @@ class PubVis {
     this.currentScene = 4; this._sceneReady = false;
     this._updateUI();
     this._hideAnnotation(() => {
-      this._hideLegend();
       this._hideAxes(() => {
         this._ensureScene4Layout();
         const bw = this._barW;
@@ -1543,16 +1600,28 @@ class PubVis {
 
   _applyBrush(x0, x1) {
     this._ensureScene2Layout();
-    const sel = new Set(this.data.filter(d => d._tx >= x0 && d._tx <= x1).map(d => d.id));
+    const selData = this.data.filter(d => d._tx >= x0 && d._tx <= x1);
+    const sel = new Set(selData.map(d => d.id));
     if (sel.size === 0) { this._clearFilter(); return; }
     this._highlightBlocks(sel);
     this._applyFilter(sel);
-    const years = this.data.filter(d => sel.has(d.id)).map(d => d.year);
+
+    const years = selData.map(d => d.year);
     const yr = `${Math.min(...years)}–${Math.max(...years)}`;
-    this._showAnnotation([
-      `${sel.size} publications selected (${yr})`,
-      'Drag to change selection · click outside to clear',
-    ], { y: this.H * 0.25 });
+
+    const venueCounts = d3.rollups(selData, v => v.length, d => d.venue)
+      .sort((a, b) => b[1] - a[1]);
+    const MAX_V = 6;
+    const shown = venueCounts.slice(0, MAX_V);
+    const restCount = venueCounts.slice(MAX_V).reduce((s, [, c]) => s + c, 0);
+    const rows = shown.map(([v, c]) => ({ color: this._venueColor(v), label: `${v}: ${c}` }));
+    if (restCount > 0) rows.push({ color: PV_COLORS.venueOther, label: `+ ${restCount} from other venues` });
+
+    this._showRichAnnotation(
+      `${sel.size} of ${this.data.length} selected  (${yr})`,
+      rows,
+      { y: this.H * 0.25 }
+    );
   }
 
   /* ── Lasso (scenes 5 & 6) ─────────────────────────────────────────── */
@@ -1704,12 +1773,28 @@ class PubVis {
 
   _handleUmapLasso(polygon) {
     this._ensureScene5Layout();
-    const sel = new Set(this.data.filter(d =>
+    const selData = this.data.filter(d =>
       this._pointInPolygon([this.xScaleU(d.x), this.yScaleU(d.y)], polygon)
-    ).map(d => d.id));
+    );
+    const sel = new Set(selData.map(d => d.id));
     if (sel.size === 0) { this._clearFilter(); return; }
     this._highlightBlocks(sel);
     this._applyFilter(sel);
+
+    const cc = PV_COLORS.cluster;
+    const clusterCounts = d3.rollups(selData, v => v.length, d => d.cluster_index)
+      .sort((a, b) => a[0] - b[0]);
+    const rows = clusterCounts.map(([ci, c]) => {
+      const topicLabel = this.data.find(d => d.cluster_index === ci)?.topic_summary || `Cluster ${ci}`;
+      const short = topicLabel.length > 24 ? topicLabel.slice(0, 23) + '…' : topicLabel;
+      return { color: cc[ci], label: `${short}: ${c}` };
+    });
+
+    this._showRichAnnotation(
+      `${sel.size} of ${this.data.length} selected`,
+      rows,
+      { y: this.H * 0.15 }
+    );
   }
 
   _handleNetLasso(polygon) {
@@ -1723,11 +1808,33 @@ class PubVis {
       .attr('stroke', d => selectedAuthors.has(d.id) ? this._c('selectOrange') : (d.isBC ? this._c('netBcStroke') : this._c('netNodeStroke')))
       .attr('stroke-width', d => selectedAuthors.has(d.id) ? 3 : (d.isBC ? 2 : 1));
 
-    const sel = new Set(this.data.filter(p =>
+    const selData = this.data.filter(p =>
       p.authors.split(';').map(a => a.trim()).some(a => selectedAuthors.has(a))
-    ).map(d => d.id));
+    );
+    const sel = new Set(selData.map(d => d.id));
     this._highlightBlocks(sel);
     this._applyFilter(sel);
+
+    /* per-author publication count within the selection */
+    const authorCounts = [...selectedAuthors].map(a => ({
+      author: a,
+      count: selData.filter(p => p.authors.split(';').map(s => s.trim()).includes(a)).length,
+    })).sort((a, b) => b.count - a.count);
+
+    const MAX_A = 7;
+    const shown = authorCounts.slice(0, MAX_A);
+    const restCount = authorCounts.slice(MAX_A).length;
+    const rows = shown.map(({ author, count }) => {
+      const short = author.length > 22 ? author.slice(0, 21) + '…' : author;
+      return { color: this._c('selectOrange'), label: `${short}: ${count}` };
+    });
+    if (restCount > 0) rows.push({ color: this._c('annotSub'), label: `+ ${restCount} more authors` });
+
+    this._showRichAnnotation(
+      `${sel.size} publications selected`,
+      rows,
+      { y: this._netTop + (this.H - this._netTop) * 0.12 }
+    );
   }
 
   /* ══════════════════════════════════════════════════════════════════════
