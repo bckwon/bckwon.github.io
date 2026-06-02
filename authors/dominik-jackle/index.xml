@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dominik Jäckle | Bum Chul Kwon</title>
+    <title>Dominik Jäckle | Bum Chul Kwon</title>
     <link>https://bckwon.com/authors/dominik-jackle/</link>
       <atom:link href="https://bckwon.com/authors/dominik-jackle/index.xml" rel="self" type="application/rss+xml" />
-    <description>Dominik Jäckle</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Wed, 01 Oct 2014 00:00:00 +0000</lastBuildDate>
+    <description>Dominik Jäckle</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>VisJockey: Enriching Data Stories through Orchestrated Interactive Visualization</title>
-      <link>https://bckwon.com/publication/visjockey/</link>
-      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>https://bckwon.com/publication/visjockey/</guid>
+      <title>Off-Screen Visualization Perspectives: Tasks and Challenges</title>
+      <link>https://bckwon.com/publication/offscreen_perspectives/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/offscreen_perspectives/</guid>
       <description></description>
     </item>
     
   </channel>
-</rss>
 </rss>
