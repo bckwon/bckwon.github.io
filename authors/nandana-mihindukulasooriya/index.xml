@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nandana Mihindukulasooriya | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/nandana-mihindukulasooriya/</link>
+      <atom:link href="https://bckwon.com/authors/nandana-mihindukulasooriya/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nandana Mihindukulasooriya</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Finspector: A Human-Centered Visual Inspection Tool for Exploring and Comparing Biases among Foundation Models</title>
+      <link>https://bckwon.com/publication/finspector/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/finspector/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

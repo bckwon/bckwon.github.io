@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bongshin Lee | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/bongshin-lee/</link>
+      <atom:link href="https://bckwon.com/authors/bongshin-lee/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bongshin Lee</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 01 May 2016 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>A Comparative Evaluation on Online Learning Approaches using Parallel Coordinate Visualization</title>
+      <link>https://bckwon.com/publication/tivy/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/tivy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VisJockey: Enriching Data Stories through Orchestrated Interactive Visualization</title>
+      <link>https://bckwon.com/publication/visjockey/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/visjockey/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

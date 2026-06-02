@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lexing Xie | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/lexing-xie/</link>
+      <atom:link href="https://bckwon.com/authors/lexing-xie/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lexing Xie</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Roslingifier: Semi-Automated Storytelling for Animated Scatterplots</title>
+      <link>https://bckwon.com/publication/roslingifier/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/roslingifier/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

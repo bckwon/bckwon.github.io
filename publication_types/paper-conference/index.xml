@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paper-Conference | Bum Chul Kwon</title>
+    <link>https://bckwon.com/publication_types/paper-conference/</link>
+      <atom:link href="https://bckwon.com/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paper-Conference</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://bckwon.com/media/icon_hu_abcff2b67f1708c3.png</url>
+      <title>Paper-Conference</title>
+      <link>https://bckwon.com/publication_types/paper-conference/</link>
+    </image>
+    
+    <item>
+      <title>SPARK: Harnessing Human-Centered Workflows with Biomedical Foundation Models for Drug Discovery</title>
+      <link>https://bckwon.com/publication/spark/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/spark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MiMICRI: Towards Domain-centered Counterfactual Explanations of Cardiovascular Image Classification Models</title>
+      <link>https://bckwon.com/publication/mimicri/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/mimicri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finspector: A Human-Centered Visual Inspection Tool for Exploring and Comparing Biases among Foundation Models</title>
+      <link>https://bckwon.com/publication/finspector/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/finspector/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Causalvis: Visualizations for Causal Inference</title>
+      <link>https://bckwon.com/publication/causalvis/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/causalvis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RMExplorer: A Visual Analytics Approach to Explore the Performance and the Fairness of Disease Risk Models on Population Subgroups</title>
+      <link>https://bckwon.com/publication/rmexplorer/</link>
+      <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/rmexplorer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DASH: Visual Analytics for Debiasing Image Classification via User-Driven Synthetic Data Augmentation</title>
+      <link>https://bckwon.com/publication/dash/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/dash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VATUN: Visual Analytics for Testing and Understanding Convolutional Neural Networks</title>
+      <link>https://bckwon.com/publication/vatun/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/vatun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wait, Let&#39;s Think about Your Purchase Again: A Study on Interventions for Supporting Self-Controlled Online Purchases</title>
+      <link>https://bckwon.com/publication/purchase/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/purchase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Disease Progression Trajectories from Longitudinal Observational Data</title>
+      <link>https://bckwon.com/publication/hmm/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/hmm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GUIComp: A GUI Design Assistant with Real-Time, Multi-Faceted Feedback</title>
+      <link>https://bckwon.com/publication/guicomp/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/guicomp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SANVis: Visual Analytics for Understanding Self-Attention Networks</title>
+      <link>https://bckwon.com/publication/sanvis/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/sanvis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thumbnails for Data Stories: A Survey of Current Practices</title>
+      <link>https://bckwon.com/publication/thumbnails/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/thumbnails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Off-Screen Visualization Perspectives: Tasks and Challenges</title>
+      <link>https://bckwon.com/publication/offscreen_perspectives/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/offscreen_perspectives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReVACNN: Real-Time Visual Analytics for Convolutional Neural Network</title>
+      <link>https://bckwon.com/publication/revacnn/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/revacnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Taxonomy for Evaluating User Engagement in Information Visualization</title>
+      <link>https://bckwon.com/publication/taxonomy_engagement/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/taxonomy_engagement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peekquence: Visual Analytics for Event Sequence Data</title>
+      <link>https://bckwon.com/publication/peekquence/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/peekquence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Comparative Evaluation on Online Learning Approaches using Parallel Coordinate Visualization</title>
+      <link>https://bckwon.com/publication/tivy/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/tivy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spherical similarity explorer for comparative case analysis</title>
+      <link>https://bckwon.com/publication/spherical/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/spherical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opinion Marks: A Human-Based Computation Approach to Instill Structure into Unstructured Text on the Web</title>
+      <link>https://bckwon.com/publication/om/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/om/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ambient Grids: Maintain Context-Awareness via Aggregated Off-Screen Visualization</title>
+      <link>https://bckwon.com/publication/ambient/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/ambient/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VisJockey: Enriching Data Stories through Orchestrated Interactive Visualization</title>
+      <link>https://bckwon.com/publication/visjockey/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/visjockey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigating the Efficacy of Crowdsourcing on Evaluating Visual Decision Supporting System</title>
+      <link>https://bckwon.com/publication/crowdsourcing_efficacy/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/crowdsourcing_efficacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Direct Manipulation Through Surrogate Objects</title>
+      <link>https://bckwon.com/publication/surrogate_interaction/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/surrogate_interaction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Analytic Roadblocks for Novice Investigators</title>
+      <link>https://bckwon.com/publication/roadblock/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/roadblock/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

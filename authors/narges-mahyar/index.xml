@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Narges Mahyar | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/narges-mahyar/</link>
+      <atom:link href="https://bckwon.com/authors/narges-mahyar/index.xml" rel="self" type="application/rss+xml" />
+    <description>Narges Mahyar</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Towards a Taxonomy for Evaluating User Engagement in Information Visualization</title>
+      <link>https://bckwon.com/publication/taxonomy_engagement/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/taxonomy_engagement/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

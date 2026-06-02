@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Content tagged as &#39;Academic&#39; on Bum Chul Kwon</title>
+    <title>Content tagged as &#39;Academic&#39; | Bum Chul Kwon</title>
     <link>https://bckwon.com/tags/academic/</link>
-    <description>Recent content in Content tagged as &#39;Academic&#39; on Bum Chul Kwon</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2024 Bum Chul Kwon</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://bckwon.com/tags/academic/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://bckwon.com/tags/academic/index.xml" rel="self" type="application/rss+xml" />
+    <description>Content tagged as &#39;Academic&#39;</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://bckwon.com/media/icon_hu_abcff2b67f1708c3.png</url>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>https://bckwon.com/tags/academic/</link>
+    </image>
     
   </channel>
 </rss>

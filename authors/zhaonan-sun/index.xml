@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhaonan Sun | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/zhaonan-sun/</link>
+      <atom:link href="https://bckwon.com/authors/zhaonan-sun/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhaonan Sun</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>DPVis: Visual Analytics with Hidden Markov Models for Disease Progression Pathways</title>
+      <link>https://bckwon.com/publication/dpvis/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/dpvis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deokgun Park | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/deokgun-park/</link>
+      <atom:link href="https://bckwon.com/authors/deokgun-park/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deokgun Park</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>VATUN: Visual Analytics for Testing and Understanding Convolutional Neural Networks</title>
+      <link>https://bckwon.com/publication/vatun/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/vatun/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

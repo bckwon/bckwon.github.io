@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grace Guo | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/grace-guo/</link>
+      <atom:link href="https://bckwon.com/authors/grace-guo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Grace Guo</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>MiMICRI: Towards Domain-centered Counterfactual Explanations of Cardiovascular Image Classification Models</title>
+      <link>https://bckwon.com/publication/mimicri/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/mimicri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Causalvis: Visualizations for Causal Inference</title>
+      <link>https://bckwon.com/publication/causalvis/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/causalvis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

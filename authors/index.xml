@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/</link>
+      <atom:link href="https://bckwon.com/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://bckwon.com/media/icon_hu_abcff2b67f1708c3.png</url>
+      <title>Authors</title>
+      <link>https://bckwon.com/authors/</link>
+    </image>
+    
+  </channel>
+</rss>

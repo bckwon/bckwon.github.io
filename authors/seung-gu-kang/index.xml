@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seung-Gu Kang | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/seung-gu-kang/</link>
+      <atom:link href="https://bckwon.com/authors/seung-gu-kang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Seung-Gu Kang</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>SPARK: Harnessing Human-Centered Workflows with Biomedical Foundation Models for Drug Discovery</title>
+      <link>https://bckwon.com/publication/spark/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/spark/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anjana Arunkumar | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/anjana-arunkumar/</link>
+      <atom:link href="https://bckwon.com/authors/anjana-arunkumar/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anjana Arunkumar</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>PromptAid: Visual Prompt Exploration, Perturbation, Testing and Iteration for Large Language Models</title>
+      <link>https://bckwon.com/publication/promptaid/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/promptaid/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

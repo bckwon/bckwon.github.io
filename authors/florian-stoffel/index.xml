@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Florian Stoffel | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/florian-stoffel/</link>
+      <atom:link href="https://bckwon.com/authors/florian-stoffel/index.xml" rel="self" type="application/rss+xml" />
+    <description>Florian Stoffel</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 14 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Spherical similarity explorer for comparative case analysis</title>
+      <link>https://bckwon.com/publication/spherical/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/spherical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ambient Grids: Maintain Context-Awareness via Aggregated Off-Screen Visualization</title>
+      <link>https://bckwon.com/publication/ambient/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/ambient/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge Generation Model for Visual Analytics</title>
+      <link>https://bckwon.com/publication/knowledge_generation/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/knowledge_generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VisJockey: Enriching Data Stories through Orchestrated Interactive Visualization</title>
+      <link>https://bckwon.com/publication/visjockey/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/visjockey/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

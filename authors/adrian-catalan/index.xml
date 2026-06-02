@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adrián Catalán | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/adrian-catalan/</link>
+      <atom:link href="https://bckwon.com/authors/adrian-catalan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Adrián Catalán</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Wed, 12 Aug 2015 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Do People Really Experience Information Overload While Reading Online Reviews?</title>
+      <link>https://bckwon.com/publication/overload/</link>
+      <pubDate>Wed, 12 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/overload/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

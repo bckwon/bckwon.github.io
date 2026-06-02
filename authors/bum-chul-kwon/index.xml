@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/bum-chul-kwon/</link>
+      <atom:link href="https://bckwon.com/authors/bum-chul-kwon/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bum Chul Kwon</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Multi-view biomedical foundation models for molecule-target and property prediction</title>
+      <link>https://bckwon.com/publication/multiviews/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/multiviews/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Autoethnography on Visualization Literacy: A Wicked Measurement Problem</title>
+      <link>https://bckwon.com/publication/autoethnography_visualization_literacy/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/autoethnography_visualization_literacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Critical Analysis of the Usage of Dimensionality Reduction in Four Domains</title>
+      <link>https://bckwon.com/publication/dimensionality_reduction/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/dimensionality_reduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PromptAid: Visual Prompt Exploration, Perturbation, Testing and Iteration for Large Language Models</title>
+      <link>https://bckwon.com/publication/promptaid/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/promptaid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DG Comics: Semi-Automatically Authoring Graph Comics for Dynamic Graphs</title>
+      <link>https://bckwon.com/publication/dgcomics/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/dgcomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SPARK: Harnessing Human-Centered Workflows with Biomedical Foundation Models for Drug Discovery</title>
+      <link>https://bckwon.com/publication/spark/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/spark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MiMICRI: Towards Domain-centered Counterfactual Explanations of Cardiovascular Image Classification Models</title>
+      <link>https://bckwon.com/publication/mimicri/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/mimicri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finspector: A Human-Centered Visual Inspection Tool for Exploring and Comparing Biases among Foundation Models</title>
+      <link>https://bckwon.com/publication/finspector/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/finspector/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Visualization Thumbnail Designs that Entice Reading Data-driven Articles</title>
+      <link>https://bckwon.com/publication/visthumbnails/</link>
+      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/visthumbnails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Causalvis: Visualizations for Causal Inference</title>
+      <link>https://bckwon.com/publication/causalvis/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/causalvis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ConceptExplainer: Interactive Explanation for Deep Neural Networks from a Concept Perspective</title>
+      <link>https://bckwon.com/publication/conceptexplainer/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/conceptexplainer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Islet Autoantibody Levels Differentiate Progression Trajectories in Individuals With Presymptomatic Type 1 Diabetes</title>
+      <link>https://bckwon.com/publication/iab-levels-differentiate/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/iab-levels-differentiate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RMExplorer: A Visual Analytics Approach to Explore the Performance and the Fairness of Disease Risk Models on Population Subgroups</title>
+      <link>https://bckwon.com/publication/rmexplorer/</link>
+      <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/rmexplorer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prediction Performance And Fairness Heterogeneity In Cardiovascular Risk Models</title>
+      <link>https://bckwon.com/publication/cardiac-risk-models/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/cardiac-risk-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human-Centered Explainability For Life Sciences, Healthcare, And Medical Informatics</title>
+      <link>https://bckwon.com/publication/human-centered-explainability/</link>
+      <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/human-centered-explainability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DASH: Visual Analytics for Debiasing Image Classification via User-Driven Synthetic Data Augmentation</title>
+      <link>https://bckwon.com/publication/dash/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/dash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Progression Of Type 1 Diabetes From Latency To Symptomatic Disease Is Predicted By Distinct Autoimmune Trajectories</title>
+      <link>https://bckwon.com/publication/autoimmune-trajectories/</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/autoimmune-trajectories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roslingifier: Semi-Automated Storytelling for Animated Scatterplots</title>
+      <link>https://bckwon.com/publication/roslingifier/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/roslingifier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design And User Experience Testing Of A Polygenic Score Report: A Qualitative Study Of Prospective Users</title>
+      <link>https://bckwon.com/publication/polygenic-score-report/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/polygenic-score-report/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VATUN: Visual Analytics for Testing and Understanding Convolutional Neural Networks</title>
+      <link>https://bckwon.com/publication/vatun/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/vatun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wait, Let&#39;s Think about Your Purchase Again: A Study on Interventions for Supporting Self-Controlled Online Purchases</title>
+      <link>https://bckwon.com/publication/purchase/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/purchase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving Heart Disease Risk Through Quality-Focused Diet Logging: Pre-Post Study of a Diet Quality Tracking App</title>
+      <link>https://bckwon.com/publication/dietapp/</link>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/dietapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Disease Progression Trajectories from Longitudinal Observational Data</title>
+      <link>https://bckwon.com/publication/hmm/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/hmm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geono-Cluster: Interactive Visual Cluster Analysis for Biologists</title>
+      <link>https://bckwon.com/publication/geono-cluster/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/geono-cluster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DPVis: Visual Analytics with Hidden Markov Models for Disease Progression Pathways</title>
+      <link>https://bckwon.com/publication/dpvis/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/dpvis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GUIComp: A GUI Design Assistant with Real-Time, Multi-Faceted Feedback</title>
+      <link>https://bckwon.com/publication/guicomp/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/guicomp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SANVis: Visual Analytics for Understanding Self-Attention Networks</title>
+      <link>https://bckwon.com/publication/sanvis/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/sanvis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thumbnails for Data Stories: A Survey of Current Practices</title>
+      <link>https://bckwon.com/publication/thumbnails/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/thumbnails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Correlation between Users&#39; Cognitive Characteristics and Visualization Literacy</title>
+      <link>https://bckwon.com/publication/cogvislit/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/cogvislit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RetainVis: Visual Analytics with Interpretable and Interactive Recurrent Neural Networks on Electronic Medical Records</title>
+      <link>https://bckwon.com/publication/retainvis/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/retainvis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clustervision: Visual Supervision of Unsupervised Clustering</title>
+      <link>https://bckwon.com/publication/clustervision/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/clustervision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toward Predicting Social Support Needs in Online Health Social Networks</title>
+      <link>https://bckwon.com/publication/ohsn/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/ohsn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AxiSketcher: Interactive Nonlinear Axis Mapping of Visualizations through User Drawings</title>
+      <link>https://bckwon.com/publication/axisketcher/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/axisketcher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sampling for Scalable Visual Analytics</title>
+      <link>https://bckwon.com/publication/samplify/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/samplify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VisExpress: Visual exploration of differential gene expression data</title>
+      <link>https://bckwon.com/publication/visexpress/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/visexpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VLAT: Development of a Visualization Literacy Assessment Test</title>
+      <link>https://bckwon.com/publication/vlat/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/vlat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Off-Screen Visualization Perspectives: Tasks and Challenges</title>
+      <link>https://bckwon.com/publication/offscreen_perspectives/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/offscreen_perspectives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReVACNN: Real-Time Visual Analytics for Convolutional Neural Network</title>
+      <link>https://bckwon.com/publication/revacnn/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/revacnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Taxonomy for Evaluating User Engagement in Information Visualization</title>
+      <link>https://bckwon.com/publication/taxonomy_engagement/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/taxonomy_engagement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personas in Online Health Communities</title>
+      <link>https://bckwon.com/publication/personas/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/personas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peekquence: Visual Analytics for Event Sequence Data</title>
+      <link>https://bckwon.com/publication/peekquence/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/peekquence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Comparative Evaluation on Online Learning Approaches using Parallel Coordinate Visualization</title>
+      <link>https://bckwon.com/publication/tivy/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/tivy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spherical similarity explorer for comparative case analysis</title>
+      <link>https://bckwon.com/publication/spherical/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/spherical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guidelines for Effective Usage of Text Highlighting Techniques</title>
+      <link>https://bckwon.com/publication/text_highlighting/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/text_highlighting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Role of Uncertainty, Awareness, and Trust in Visual Analytics</title>
+      <link>https://bckwon.com/publication/uncertainty_trust_model/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/uncertainty_trust_model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VisOHC: Designing Visual Analytics for Online Health Communities</title>
+      <link>https://bckwon.com/publication/visohc/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/visohc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do People Really Experience Information Overload While Reading Online Reviews?</title>
+      <link>https://bckwon.com/publication/overload/</link>
+      <pubDate>Wed, 12 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/overload/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opinion Marks: A Human-Based Computation Approach to Instill Structure into Unstructured Text on the Web</title>
+      <link>https://bckwon.com/publication/om/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/om/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What Are the Causes of Noncompliance Behaviors in Bar Code Medication Administration System Processes?</title>
+      <link>https://bckwon.com/publication/noncompliance/</link>
+      <pubDate>Tue, 31 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/noncompliance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ambient Grids: Maintain Context-Awareness via Aggregated Off-Screen Visualization</title>
+      <link>https://bckwon.com/publication/ambient/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/ambient/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>State-of-the-art Report Of Visual Analysis For Event Detection In Text Data Streams</title>
+      <link>https://bckwon.com/publication/event_detection_text/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/event_detection_text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge Generation Model for Visual Analytics</title>
+      <link>https://bckwon.com/publication/knowledge_generation/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/knowledge_generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VisJockey: Enriching Data Stories through Orchestrated Interactive Visualization</title>
+      <link>https://bckwon.com/publication/visjockey/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/visjockey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Review Of Web‐based Dietary Interventions: From The Human–Computer Interaction Practitioners&#39; Perspective</title>
+      <link>https://bckwon.com/publication/dietary_intervention_review/</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/dietary_intervention_review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Analytics for Multimodal Social Network Analysis: A Design Study with Social Scientists</title>
+      <link>https://bckwon.com/publication/multimodal/</link>
+      <pubDate>Wed, 16 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/multimodal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReadingMate: The Effect of the Content Stabilizing Technique, Font Size, and Interline Spacing on the Letter-Counting Task Performance of Treadmill Runners</title>
+      <link>https://bckwon.com/publication/readingmate/</link>
+      <pubDate>Wed, 10 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/readingmate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating the Role of Time in Investigative Analysis of Document Collections</title>
+      <link>https://bckwon.com/publication/timeinvestigator/</link>
+      <pubDate>Mon, 19 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/timeinvestigator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Food for the Heart: Lessons Learned while Designing a Visual Decision Support System for Patients with Coronary Heart Disease</title>
+      <link>https://bckwon.com/publication/food_for_the_heart/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/food_for_the_heart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigating the Efficacy of Crowdsourcing on Evaluating Visual Decision Supporting System</title>
+      <link>https://bckwon.com/publication/crowdsourcing_efficacy/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/crowdsourcing_efficacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Direct Manipulation Through Surrogate Objects</title>
+      <link>https://bckwon.com/publication/surrogate_interaction/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/surrogate_interaction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Analytic Roadblocks for Novice Investigators</title>
+      <link>https://bckwon.com/publication/roadblock/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/roadblock/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

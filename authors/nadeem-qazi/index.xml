@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nadeem Qazi | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/nadeem-qazi/</link>
+      <atom:link href="https://bckwon.com/authors/nadeem-qazi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nadeem Qazi</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 14 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Spherical similarity explorer for comparative case analysis</title>
+      <link>https://bckwon.com/publication/spherical/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/spherical/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

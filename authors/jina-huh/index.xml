@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jina Huh | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/jina-huh/</link>
+      <atom:link href="https://bckwon.com/authors/jina-huh/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jina Huh</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Toward Predicting Social Support Needs in Online Health Social Networks</title>
+      <link>https://bckwon.com/publication/ohsn/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/ohsn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personas in Online Health Communities</title>
+      <link>https://bckwon.com/publication/personas/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/personas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VisOHC: Designing Visual Analytics for Online Health Communities</title>
+      <link>https://bckwon.com/publication/visohc/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/visohc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

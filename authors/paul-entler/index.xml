@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paul Entler | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/paul-entler/</link>
+      <atom:link href="https://bckwon.com/authors/paul-entler/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paul Entler</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Wed, 23 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Improving Heart Disease Risk Through Quality-Focused Diet Logging: Pre-Post Study of a Diet Quality Tracking App</title>
+      <link>https://bckwon.com/publication/dietapp/</link>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/dietapp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

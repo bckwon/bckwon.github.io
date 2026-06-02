@@ -1,648 +1,613 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication_types/2/</loc>
-      <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/</loc>
-      <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/multiviews/</loc>
-      <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication_types/</loc>
-      <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/autoethnography_visualization_literacy/</loc>
-      <lastmod>2026-01-31T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/dimensionality_reduction/</loc>
-      <lastmod>2025-05-07T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/promptaid/</loc>
-      <lastmod>2025-01-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/dgcomics/</loc>
-      <lastmod>2024-09-20T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication_types/1/</loc>
-      <lastmod>2024-05-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/spark/</loc>
-      <lastmod>2024-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/mimicri/</loc>
-      <lastmod>2024-04-24T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/finspector/</loc>
-      <lastmod>2023-05-25T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/visthumbnails/</loc>
-      <lastmod>2023-05-22T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/causalvis/</loc>
-      <lastmod>2023-03-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/conceptexplainer/</loc>
-      <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/iab-levels-differentiate/</loc>
-      <lastmod>2022-11-21T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/rmexplorer/</loc>
-      <lastmod>2022-09-14T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/cardiac-risk-models/</loc>
-      <lastmod>2022-07-22T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/human-centered-explainability/</loc>
-      <lastmod>2022-05-13T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/dash/</loc>
-      <lastmod>2022-04-23T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/autoimmune-trajectories/</loc>
-      <lastmod>2022-03-21T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/roslingifier/</loc>
-      <lastmod>2022-01-28T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/polygenic-score-report/</loc>
-      <lastmod>2021-10-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/vatun/</loc>
-      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/purchase/</loc>
-      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/dietapp/</loc>
-      <lastmod>2020-12-23T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/hmm/</loc>
-      <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/geono-cluster/</loc>
-      <lastmod>2020-06-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/dpvis/</loc>
-      <lastmod>2020-04-06T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/guicomp/</loc>
-      <lastmod>2020-01-16T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/sanvis/</loc>
-      <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/thumbnails/</loc>
-      <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/cogvislit/</loc>
-      <lastmod>2019-01-31T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/retainvis/</loc>
-      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/clustervision/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/ohsn/</loc>
-      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/axisketcher/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/samplify/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/vlat/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/visexpress/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication_types/7/</loc>
-      <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/offscreen_perspectives/</loc>
-      <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/revacnn/</loc>
-      <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/taxonomy_engagement/</loc>
-      <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/personas/</loc>
-      <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/peekquence/</loc>
-      <lastmod>2016-08-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/tivy/</loc>
-      <lastmod>2016-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/spherical/</loc>
-      <lastmod>2016-02-14T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/text_highlighting/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/uncertainty_trust_model/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/visohc/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/overload/</loc>
-      <lastmod>2015-08-12T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/om/</loc>
-      <lastmod>2015-08-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/noncompliance/</loc>
-      <lastmod>2015-03-31T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/ambient/</loc>
-      <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/event_detection_text/</loc>
-      <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/knowledge_generation/</loc>
-      <lastmod>2014-11-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/visjockey/</loc>
-      <lastmod>2014-10-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/dietary_intervention_review/</loc>
-      <lastmod>2014-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/multimodal/</loc>
-      <lastmod>2013-10-16T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/readingmate/</loc>
-      <lastmod>2013-04-10T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/timeinvestigator/</loc>
-      <lastmod>2012-03-19T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication_types/6/</loc>
-      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/food_for_the_heart/</loc>
-      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/crowdsourcing_efficacy/</loc>
-      <lastmod>2011-10-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/surrogate_interaction/</loc>
-      <lastmod>2011-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/publication/roadblock/</loc>
-      <lastmod>2011-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bckwon.com/tags/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-</urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  
+  <url>
+    <loc>https://bckwon.com/authors/aldo-guzman-saenz/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication_types/article-journal/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/bum-chul-kwon/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/daniel-e.-platt/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/diwakar-mahajan/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/elif-eyigoz/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/feixiong-cheng/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/hongyang-li/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jianying-hu/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/joseph-a.-morrone/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/kenney-ng/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/multiviews/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/myson-burch/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/pablo-meyer/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/parthasarathy-suryanarayanan/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication_types/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/sanjoy-dey/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/shreyans-sethi/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/timothy-h.-rumbell/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/yunguang-qiu/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/yuxin-yang/</loc><lastmod>2026-02-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/autoethnography_visualization_literacy/</loc><lastmod>2026-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/angela-locoro/</loc><lastmod>2026-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/anne-flore-cabouat/</loc><lastmod>2026-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jasmine-tan-otto/</loc><lastmod>2026-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/karen-bonilla/</loc><lastmod>2026-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/lane-harrison/</loc><lastmod>2026-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/lily-ge/</loc><lastmod>2026-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/mackenzie-creamer/</loc><lastmod>2026-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/maryam-hedayati/</loc><lastmod>2026-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/matthew-kay/</loc><lastmod>2026-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/michael-correll/</loc><lastmod>2026-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/noelle-rakotondravony/</loc><lastmod>2026-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/petra-isenberg/</loc><lastmod>2026-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/yiren-ding/</loc><lastmod>2026-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/yuan-cui/</loc><lastmod>2026-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/dimensionality_reduction/</loc><lastmod>2025-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/dylan-cashman/</loc><lastmod>2025-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/hyeon-jeon/</loc><lastmod>2025-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/mark-keller/</loc><lastmod>2025-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/qianwen-wang/</loc><lastmod>2025-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/aditi-mishra/</loc><lastmod>2025-01-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/anjana-arunkumar/</loc><lastmod>2025-01-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/bretho-danzy/</loc><lastmod>2025-01-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/chris-bryan/</loc><lastmod>2025-01-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jinbin-huang/</loc><lastmod>2025-01-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/promptaid/</loc><lastmod>2025-01-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/utkarsh-soni/</loc><lastmod>2025-01-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/dgcomics/</loc><lastmod>2024-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/duc-m.-nguyen/</loc><lastmod>2024-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/hyunwook-lee/</loc><lastmod>2024-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/joohee-kim/</loc><lastmod>2024-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/minjeong-shin/</loc><lastmod>2024-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/niklas-elmqvist/</loc><lastmod>2024-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/sungahn-ko/</loc><lastmod>2024-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/beldine-moturi/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/catherine-wanjiru/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/efrat-hexter/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/itai-guez/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/joseph-morrone/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/kezia-wahome/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/matan-ninio/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/miguel-shinyenyi/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/oliver-njeru/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication_types/paper-conference/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/partha-suryanarayanan/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/ruth-mwaura/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/sekou-remy/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/seung-gu-kang/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/shervin-ayati/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/simona-rabinovici-cohen/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/spark/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/tien-huynh/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/wendy-cornell/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/william-ogallo/</loc><lastmod>2024-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/alex-endert/</loc><lastmod>2024-04-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/animesh-tandon/</loc><lastmod>2024-04-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/grace-guo/</loc><lastmod>2024-04-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/lifu-deng/</loc><lastmod>2024-04-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/mimicri/</loc><lastmod>2024-04-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/</loc><lastmod>2024-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/finspector/</loc><lastmod>2023-05-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/nandana-mihindukulasooriya/</loc><lastmod>2023-05-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/hwajung-hong/</loc><lastmod>2023-05-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/hwiyeon-kim/</loc><lastmod>2023-05-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/oh-sang-kwon/</loc><lastmod>2023-05-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/visthumbnails/</loc><lastmod>2023-05-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/young-woo-park/</loc><lastmod>2023-05-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/yunha-han/</loc><lastmod>2023-05-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/causalvis/</loc><lastmod>2023-03-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/ehud-karavani/</loc><lastmod>2023-03-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/conceptexplainer/</loc><lastmod>2023-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/ake-lernmark/</loc><lastmod>2022-11-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/brigitte-i-frohnert/</loc><lastmod>2022-11-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/eileen-koski/</loc><lastmod>2022-11-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/frank-martin/</loc><lastmod>2022-11-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/iab-levels-differentiate/</loc><lastmod>2022-11-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jorma-toppari/</loc><lastmod>2022-11-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/olivia-lou/</loc><lastmod>2022-11-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/peter-achenbach/</loc><lastmod>2022-11-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/riitta-veijola/</loc><lastmod>2022-11-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/the-t1di-study-group/</loc><lastmod>2022-11-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/vibha-anand/</loc><lastmod>2022-11-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/william-hagopian/</loc><lastmod>2022-11-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/amit-v-khera/</loc><lastmod>2022-09-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/deanna-g-brockman/</loc><lastmod>2022-09-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/mikhail-yurochkin/</loc><lastmod>2022-09-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/patrick-t-ellinor/</loc><lastmod>2022-09-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/rmexplorer/</loc><lastmod>2022-09-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/shaan-khurshid/</loc><lastmod>2022-09-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/steven-a-lubitz/</loc><lastmod>2022-09-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/subha-maity/</loc><lastmod>2022-09-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/uri-kartoun/</loc><lastmod>2022-09-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/amit-v.-khera/</loc><lastmod>2022-07-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/aniruddh-p.-patel/</loc><lastmod>2022-07-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/anthony-philippakis/</loc><lastmod>2022-07-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/patrick-t.-ellinor/</loc><lastmod>2022-07-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/cardiac-risk-models/</loc><lastmod>2022-07-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/puneet-batra/</loc><lastmod>2022-07-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/steven-a.-lubitz/</loc><lastmod>2022-07-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/amit-dhurandhar/</loc><lastmod>2022-05-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/daby-sow/</loc><lastmod>2022-05-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/fernando-j.-suarez-saiz/</loc><lastmod>2022-05-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/human-centered-explainability/</loc><lastmod>2022-05-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/kush-r.-varshney/</loc><lastmod>2022-05-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/mohamed-ghalwash/</loc><lastmod>2022-05-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/prithwish-chkraborty/</loc><lastmod>2022-05-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/chaeyeon-chung/</loc><lastmod>2022-04-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/dash/</loc><lastmod>2022-04-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/ho-jin-choi/</loc><lastmod>2022-04-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jaegul-choo/</loc><lastmod>2022-04-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jungsoo-lee/</loc><lastmod>2022-04-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/nyoungwoo-lee/</loc><lastmod>2022-04-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jessica-l-dunne/</loc><lastmod>2022-03-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/markus-lundgren/</loc><lastmod>2022-03-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/autoimmune-trajectories/</loc><lastmod>2022-03-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/lexing-xie/</loc><lastmod>2022-01-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/mitchell-whitelaw/</loc><lastmod>2022-01-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/roslingifier/</loc><lastmod>2022-01-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/akl-c.-fahed/</loc><lastmod>2021-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/andrew-tang/</loc><lastmod>2021-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/bang-wong/</loc><lastmod>2021-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/deanna-g.-brockman/</loc><lastmod>2021-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/polygenic-score-report/</loc><lastmod>2021-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jacqueline-s.-dron/</loc><lastmod>2021-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/katherine-h.-huang/</loc><lastmod>2021-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/lia-petronio/</loc><lastmod>2021-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/lisa-nip/</loc><lastmod>2021-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/mary-oreilly/</loc><lastmod>2021-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/niall-lennon/</loc><lastmod>2021-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/trish-vosburg/</loc><lastmod>2021-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/cheonbok-park/</loc><lastmod>2021-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/deokgun-park/</loc><lastmod>2021-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/dongil-chung/</loc><lastmod>2021-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/dooyoung-jung/</loc><lastmod>2021-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/hyeshin-chu/</loc><lastmod>2021-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/inyoup-na/</loc><lastmod>2021-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/seunghyeong-choe/</loc><lastmod>2021-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/soyoung-yang/</loc><lastmod>2021-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/sungbok-shin/</loc><lastmod>2021-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/sunghyo-chung/</loc><lastmod>2021-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/vatun/</loc><lastmod>2021-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/purchase/</loc><lastmod>2021-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/courtland-vandam/</loc><lastmod>2020-12-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/hyung-wok-choi/</loc><lastmod>2020-12-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/dietapp/</loc><lastmod>2020-12-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jina-huh-yoo/</loc><lastmod>2020-12-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/pang-ning-tan/</loc><lastmod>2020-12-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/paul-entler/</loc><lastmod>2020-12-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/stephanie-e-chiuve/</loc><lastmod>2020-12-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/brigitte-i.-frohnert/</loc><lastmod>2020-11-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jessica-l.-dunne/</loc><lastmod>2020-11-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/hmm/</loc><lastmod>2020-11-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/bahador-saket/</loc><lastmod>2020-06-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/geono-cluster/</loc><lastmod>2020-06-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/subhajit-das/</loc><lastmod>2020-06-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/dpvis/</loc><lastmod>2020-04-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/kristen-a-severson/</loc><lastmod>2020-04-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/soumya-ghosh/</loc><lastmod>2020-04-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/zhaonan-sun/</loc><lastmod>2020-04-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/chunggi-lee/</loc><lastmod>2020-01-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/dongyun-han/</loc><lastmod>2020-01-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/guicomp/</loc><lastmod>2020-01-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/hongjun-yang/</loc><lastmod>2020-01-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/sanghoon-kim/</loc><lastmod>2020-01-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/hyungjong-noh/</loc><lastmod>2019-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jaehyo-yoo/</loc><lastmod>2019-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jian-zhao/</loc><lastmod>2019-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/juyoung-oh/</loc><lastmod>2019-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/matthew-brehmer/</loc><lastmod>2019-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/sanvis/</loc><lastmod>2019-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/thumbnails/</loc><lastmod>2019-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/yeonsoo-lee/</loc><lastmod>2019-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/yongjang-jo/</loc><lastmod>2019-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/byung-cheol-lee/</loc><lastmod>2019-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jiming-yang/</loc><lastmod>2019-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/sukwon-lee/</loc><lastmod>2019-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/sung-hee-kim/</loc><lastmod>2019-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/cogvislit/</loc><lastmod>2019-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/edward-choi/</loc><lastmod>2019-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jimeng-sun/</loc><lastmod>2019-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/joanne-taery-kim/</loc><lastmod>2019-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/min-je-choi/</loc><lastmod>2019-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/retainvis/</loc><lastmod>2019-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/soonwook-kwon/</loc><lastmod>2019-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/young-bin-kim/</loc><lastmod>2019-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/adam-perer/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/ben-eysenbach/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/christopher-defilippi/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/clustervision/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/janu-verma/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/walter-f.-stewart/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/ji-soo-yi/</loc><lastmod>2017-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jina-huh/</loc><lastmod>2017-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/ohsn/</loc><lastmod>2017-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/andreas-stoffel/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/anna-muhlig/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/axisketcher/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/cagatay-demiralp/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/tags/academic/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/daniel-keim/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/emily-wall/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/haesun-park/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/hannah-kim/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/klaus-neuhaus/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/peter-j.-haas/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/richard-landstorfer/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/samplify/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/sebastian-mittelstadt/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/siegfried-scherer/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/svenja-simon/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/tags/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/visexpress/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/vlat/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/dominik-jackle/</loc><lastmod>2016-12-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/kyeongpil-kang/</loc><lastmod>2016-12-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/narges-mahyar/</loc><lastmod>2016-12-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/offscreen_perspectives/</loc><lastmod>2016-12-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/revacnn/</loc><lastmod>2016-12-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/sangho-suh/</loc><lastmod>2016-12-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/taxonomy_engagement/</loc><lastmod>2016-12-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/jihoon-kim/</loc><lastmod>2016-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/personas/</loc><lastmod>2016-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/peekquence/</loc><lastmod>2016-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/tivy/</loc><lastmod>2016-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/bongshin-lee/</loc><lastmod>2016-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/chris-rooney/</loc><lastmod>2016-02-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/florian-stoffel/</loc><lastmod>2016-02-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/leishi-zhang/</loc><lastmod>2016-02-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/lev-nachmanson/</loc><lastmod>2016-02-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/michael-hund/</loc><lastmod>2016-02-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/nadeem-qazi/</loc><lastmod>2016-02-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/spherical/</loc><lastmod>2016-02-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/uchit-singh/</loc><lastmod>2016-02-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/william-wong/</loc><lastmod>2016-02-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/daniela-oelke/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/domink-sacha/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/geoffrey-ellis/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/text_highlighting/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/hansi-senaratne/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/hanspeter-pfister/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/hendrik-strobelt/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/uncertainty_trust_model/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/tobias-schreck/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/visohc/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/adrian-catalan/</loc><lastmod>2015-08-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/overload/</loc><lastmod>2015-08-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/timothy-duket/</loc><lastmod>2015-08-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/om/</loc><lastmod>2015-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/noncompliance/</loc><lastmod>2015-03-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/ambient/</loc><lastmod>2015-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/andreas-weiler/</loc><lastmod>2015-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/dominik-sacha/</loc><lastmod>2015-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/domink-jackle/</loc><lastmod>2015-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/franz-wanner/</loc><lastmod>2015-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/event_detection_text/</loc><lastmod>2015-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/knowledge_generation/</loc><lastmod>2014-11-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/dominik-jackle/</loc><lastmod>2014-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/visjockey/</loc><lastmod>2014-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/dietary_intervention_review/</loc><lastmod>2014-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/inkyoung-hur/</loc><lastmod>2014-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/seungyoon-lee/</loc><lastmod>2013-10-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/sohaib-ghani/</loc><lastmod>2013-10-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/multimodal/</loc><lastmod>2013-10-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/readingmate/</loc><lastmod>2013-04-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/zhu-yu/</loc><lastmod>2013-04-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/david-ebert/</loc><lastmod>2012-03-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/timeinvestigator/</loc><lastmod>2012-03-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/waqas-javed/</loc><lastmod>2012-03-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication_types/chapter/</loc><lastmod>2012-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/food_for_the_heart/</loc><lastmod>2012-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/karen-s.-yehle/</loc><lastmod>2012-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/kimberly-s.-plake/</loc><lastmod>2012-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/lane-m.-yahiro/</loc><lastmod>2012-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/sibylle-kranz/</loc><lastmod>2012-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/zhihua-dong/</loc><lastmod>2012-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/crowdsourcing_efficacy/</loc><lastmod>2011-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/sensen-li/</loc><lastmod>2011-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/brian-fisher/</loc><lastmod>2011-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/surrogate_interaction/</loc><lastmod>2011-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/publication/roadblock/</loc><lastmod>2011-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://bckwon.com/authors/me/</loc><changefreq>weekly</changefreq></url></urlset>

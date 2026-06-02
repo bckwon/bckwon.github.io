@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jungsoo Lee | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/jungsoo-lee/</link>
+      <atom:link href="https://bckwon.com/authors/jungsoo-lee/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jungsoo Lee</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>DASH: Visual Analytics for Debiasing Image Classification via User-Driven Synthetic Data Augmentation</title>
+      <link>https://bckwon.com/publication/dash/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/dash/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

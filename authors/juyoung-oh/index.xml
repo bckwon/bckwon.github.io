@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Juyoung Oh | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/juyoung-oh/</link>
+      <atom:link href="https://bckwon.com/authors/juyoung-oh/index.xml" rel="self" type="application/rss+xml" />
+    <description>Juyoung Oh</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Thumbnails for Data Stories: A Survey of Current Practices</title>
+      <link>https://bckwon.com/publication/thumbnails/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/thumbnails/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

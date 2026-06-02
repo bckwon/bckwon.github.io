@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markus Lundgren | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/markus-lundgren/</link>
+      <atom:link href="https://bckwon.com/authors/markus-lundgren/index.xml" rel="self" type="application/rss+xml" />
+    <description>Markus Lundgren</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Mon, 21 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Progression Of Type 1 Diabetes From Latency To Symptomatic Disease Is Predicted By Distinct Autoimmune Trajectories</title>
+      <link>https://bckwon.com/publication/autoimmune-trajectories/</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/autoimmune-trajectories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Disease Progression Trajectories from Longitudinal Observational Data</title>
+      <link>https://bckwon.com/publication/hmm/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/hmm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DPVis: Visual Analytics with Hidden Markov Models for Disease Progression Pathways</title>
+      <link>https://bckwon.com/publication/dpvis/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/dpvis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

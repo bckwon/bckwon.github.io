@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jaegul Choo | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/jaegul-choo/</link>
+      <atom:link href="https://bckwon.com/authors/jaegul-choo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jaegul Choo</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>DASH: Visual Analytics for Debiasing Image Classification via User-Driven Synthetic Data Augmentation</title>
+      <link>https://bckwon.com/publication/dash/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/dash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VATUN: Visual Analytics for Testing and Understanding Convolutional Neural Networks</title>
+      <link>https://bckwon.com/publication/vatun/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/vatun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SANVis: Visual Analytics for Understanding Self-Attention Networks</title>
+      <link>https://bckwon.com/publication/sanvis/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/sanvis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RetainVis: Visual Analytics with Interpretable and Interactive Recurrent Neural Networks on Electronic Medical Records</title>
+      <link>https://bckwon.com/publication/retainvis/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/retainvis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toward Predicting Social Support Needs in Online Health Social Networks</title>
+      <link>https://bckwon.com/publication/ohsn/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/ohsn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AxiSketcher: Interactive Nonlinear Axis Mapping of Visualizations through User Drawings</title>
+      <link>https://bckwon.com/publication/axisketcher/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/axisketcher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReVACNN: Real-Time Visual Analytics for Convolutional Neural Network</title>
+      <link>https://bckwon.com/publication/revacnn/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/revacnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personas in Online Health Communities</title>
+      <link>https://bckwon.com/publication/personas/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/personas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VisOHC: Designing Visual Analytics for Online Health Communities</title>
+      <link>https://bckwon.com/publication/visohc/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/visohc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opinion Marks: A Human-Based Computation Approach to Instill Structure into Unstructured Text on the Web</title>
+      <link>https://bckwon.com/publication/om/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/om/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

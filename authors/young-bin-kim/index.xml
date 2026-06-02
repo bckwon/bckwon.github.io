@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Young Bin Kim | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/young-bin-kim/</link>
+      <atom:link href="https://bckwon.com/authors/young-bin-kim/index.xml" rel="self" type="application/rss+xml" />
+    <description>Young Bin Kim</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>RetainVis: Visual Analytics with Interpretable and Interactive Recurrent Neural Networks on Electronic Medical Records</title>
+      <link>https://bckwon.com/publication/retainvis/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/retainvis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

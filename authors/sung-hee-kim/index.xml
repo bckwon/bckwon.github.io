@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sung-Hee Kim | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/sung-hee-kim/</link>
+      <atom:link href="https://bckwon.com/authors/sung-hee-kim/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sung-Hee Kim</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>The Correlation between Users&#39; Cognitive Characteristics and Visualization Literacy</title>
+      <link>https://bckwon.com/publication/cogvislit/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/cogvislit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toward Predicting Social Support Needs in Online Health Social Networks</title>
+      <link>https://bckwon.com/publication/ohsn/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/ohsn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VLAT: Development of a Visualization Literacy Assessment Test</title>
+      <link>https://bckwon.com/publication/vlat/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/vlat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Taxonomy for Evaluating User Engagement in Information Visualization</title>
+      <link>https://bckwon.com/publication/taxonomy_engagement/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/taxonomy_engagement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personas in Online Health Communities</title>
+      <link>https://bckwon.com/publication/personas/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/personas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VisOHC: Designing Visual Analytics for Online Health Communities</title>
+      <link>https://bckwon.com/publication/visohc/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/visohc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do People Really Experience Information Overload While Reading Online Reviews?</title>
+      <link>https://bckwon.com/publication/overload/</link>
+      <pubDate>Wed, 12 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/overload/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opinion Marks: A Human-Based Computation Approach to Instill Structure into Unstructured Text on the Web</title>
+      <link>https://bckwon.com/publication/om/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/om/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigating the Efficacy of Crowdsourcing on Evaluating Visual Decision Supporting System</title>
+      <link>https://bckwon.com/publication/crowdsourcing_efficacy/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/crowdsourcing_efficacy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

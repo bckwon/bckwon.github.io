@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andreas Weiler | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/andreas-weiler/</link>
+      <atom:link href="https://bckwon.com/authors/andreas-weiler/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andreas Weiler</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>State-of-the-art Report Of Visual Analysis For Event Detection In Text Data Streams</title>
+      <link>https://bckwon.com/publication/event_detection_text/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/event_detection_text/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

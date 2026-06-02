@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aldo Guzman Saenz | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/aldo-guzman-saenz/</link>
+      <atom:link href="https://bckwon.com/authors/aldo-guzman-saenz/index.xml" rel="self" type="application/rss+xml" />
+    <description>Aldo Guzman Saenz</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Multi-view biomedical foundation models for molecule-target and property prediction</title>
+      <link>https://bckwon.com/publication/multiviews/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/multiviews/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

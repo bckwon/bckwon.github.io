@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sanjoy Dey | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/sanjoy-dey/</link>
+      <atom:link href="https://bckwon.com/authors/sanjoy-dey/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sanjoy Dey</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Multi-view biomedical foundation models for molecule-target and property prediction</title>
+      <link>https://bckwon.com/publication/multiviews/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/multiviews/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human-Centered Explainability For Life Sciences, Healthcare, And Medical Informatics</title>
+      <link>https://bckwon.com/publication/human-centered-explainability/</link>
+      <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/human-centered-explainability/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
