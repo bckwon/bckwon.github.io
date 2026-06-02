@@ -640,6 +640,22 @@ class PubVis {
       .call(g => g.select('.domain').attr('stroke', this._c('axisDomain')))
       .call(g => g.selectAll('.tick line').attr('stroke', this._c('axisGrid')).attr('stroke-dasharray', '2,3'))
       .call(g => g.selectAll('text').attr('fill', this._c('axisTickText')).attr('font-size', 10));
+
+    /* Rotate band-scale labels 45° on narrow displays to prevent overlap.
+       rotate(-45, 0, 9) pivots around the label's original position so the
+       right end of each rotated label stays horizontally aligned with its bar. */
+    const isBand = typeof scale.bandwidth === 'function';
+    const shouldRotate = isBand && this.W < 380;
+    const tickTexts = this.xAxisG.selectAll('.tick text');
+    if (shouldRotate) {
+      tickTexts
+        .attr('y', 9).attr('dy', '0')
+        .attr('text-anchor', 'end')
+        .attr('transform', 'rotate(-45, 0, 9)');
+    } else {
+      tickTexts.attr('transform', null);
+    }
+
     this.xAxisG.selectAll('.ax-lbl').remove();
     this.xAxisG.append('text').attr('class', 'ax-lbl')
       .attr('x', this.W / 2).attr('y', 36)
@@ -1419,6 +1435,46 @@ class PubVis {
       }
       /* For scenes 2/3: brush is active after pause; user drags to make a selection */
     });
+
+    /* Mirror the mousedown handler for touch so tap/drag during playback
+       pauses and activates lasso on UMAP/Network scenes on mobile. */
+    this.svg.on('touchstart.playingClick', function(event) {
+      if (self.playState !== 'playing') return;
+      if (event.touches.length !== 1) return;
+
+      self._handlePlayPause();
+      self._playPausedByClick = true;
+      setTimeout(() => { self._playPausedByClick = false; }, 100);
+
+      const touch = event.touches[0];
+      const block = touch.target.closest('path.pv-block');
+      const pNode = touch.target.closest('.pv-node');
+
+      if (block && !self._lassoFired) {
+        const d = d3.select(block).datum();
+        if (d) { self._highlightBlocks(new Set([d.id])); self._applyFilter(new Set([d.id])); }
+      } else if (pNode && !self._lassoFired) {
+        const d = d3.select(pNode).datum();
+        if (d) {
+          self.netG.selectAll('g.pv-node').select('circle')
+            .attr('stroke', nd => nd.id === d.id ? self._c('selectOrange') : (nd.isBC ? self._c('netBcStroke') : self._c('netNodeStroke')))
+            .attr('stroke-width', nd => nd.id === d.id ? 3 : (nd.isBC ? 2 : 1));
+          const ids = new Set(self.data.filter(p =>
+            p.authors.split(';').map(a => a.trim()).includes(d.id)
+          ).map(p => p.id));
+          self._highlightBlocks(ids); self._applyFilter(ids);
+        }
+      } else if (self.currentScene === 5 || self.currentScene === 6) {
+        /* finger drag in UMAP/network: prevent scroll and start lasso from touch point */
+        event.preventDefault();
+        self._removeLasso();
+        const allowOnBlocks = self.currentScene === 5;
+        const cb = self.currentScene === 5
+          ? poly => self._handleUmapLasso(poly)
+          : poly => self._handleNetLasso(poly);
+        self._addLasso(cb, allowOnBlocks, event);
+      }
+    });
   }
 
   _removeInteractions() {
@@ -1507,8 +1563,18 @@ class PubVis {
     const self = this;
     let pts = [], lpath = null;
 
+    /* Extract SVG coordinates from either a mouse event or a Touch object */
+    const _getPoint = (event) => {
+      const src = event.touches && event.touches.length > 0
+        ? event.touches[0]
+        : event.changedTouches && event.changedTouches.length > 0
+          ? event.changedTouches[0]
+          : event;
+      return d3.pointer(src, self.g.node());
+    };
+
     const _startLasso = (event) => {
-      pts = [d3.pointer(event, self.g.node())];
+      pts = [_getPoint(event)];
       if (lpath) lpath.remove();
       lpath = self.g.append('path').attr('class', 'pv-lasso')
         .attr('fill', self._c('lassoBg')).attr('stroke', self._c('lassoStroke'))
@@ -1517,40 +1583,72 @@ class PubVis {
         .attr('d', `M ${pts[0].map(v => v.toFixed(1)).join(',')} Z`);
     };
 
-    /* if forwarded from a playing-click, start the lasso immediately */
+    const _extendLasso = (event) => {
+      if (!lpath) return;
+      pts.push(_getPoint(event));
+      lpath.attr('d', 'M' + pts.map(p => p.map(v => v.toFixed(1)).join(',')).join('L') + 'Z');
+    };
+
+    const _endLasso = () => {
+      if (!lpath) return;
+      lpath.remove(); lpath = null;
+      const poly = pts; pts = [];
+      if (poly.length >= 3) {
+        /* suppress the click/tap that fires right after release so it doesn't
+           immediately override the lasso filter */
+        self._lassoFired = true;
+        setTimeout(() => { self._lassoFired = false; }, 100);
+        onComplete(poly);
+      }
+    };
+
+    /* if forwarded from a playing-click/tap, start the lasso immediately */
     if (startEvent) _startLasso(startEvent);
 
-    /* Attach to svg so empty-space clicks (no SVG child under cursor) register.
-       <g> elements have no fill, so they don't receive background pointer events. */
+    /* ── Mouse events ──────────────────────────────────────────────────── */
+    /* Attach to svg so empty-space drags register (<g> has no fill). */
     this.svg.on('mousedown.lasso', function(event) {
       if (event.button !== 0) return;
-      // Never start lasso on network author nodes
       if (event.target.closest('.pv-node')) return;
-      // In scene 6, also skip clicks on pub blocks (top row)
       if (!allowOnBlocks && event.target.closest('path.pv-block')) return;
       event.preventDefault();
       _startLasso(event);
     });
 
-    /* Use window so drag continues even when cursor leaves the SVG */
+    /* Use window so drag continues when cursor leaves the SVG */
     d3.select(window).on('mousemove.lasso', function(event) {
       if (!lpath) return;
       event.preventDefault();
-      pts.push(d3.pointer(event, self.g.node()));
-      lpath.attr('d', 'M' + pts.map(p => p.map(v => v.toFixed(1)).join(',')).join('L') + 'Z');
+      _extendLasso(event);
     });
 
     d3.select(window).on('mouseup.lasso', function() {
+      _endLasso();
+    });
+
+    /* ── Touch events ──────────────────────────────────────────────────── */
+    /* Touch events stay bound to the element where the touch started, so
+       listening on the SVG covers the full drag even if the finger moves out.
+       event.preventDefault() on touchstart prevents the browser scroll gesture
+       for the entire touch sequence (requires a non-passive listener, which is
+       D3's default for element-level listeners). */
+    this.svg.on('touchstart.lasso', function(event) {
+      if (event.touches.length !== 1) return;
+      if (event.target.closest('.pv-node')) return;
+      if (!allowOnBlocks && event.target.closest('path.pv-block')) return;
+      event.preventDefault();
+      _startLasso(event);
+    });
+
+    this.svg.on('touchmove.lasso', function(event) {
       if (!lpath) return;
-      lpath.remove(); lpath = null;
-      const poly = pts; pts = [];
-      if (poly.length >= 3) {
-        /* suppress the click event that fires right after mouseup on the same target;
-           without this, click.pv or click.filter immediately overrides the lasso filter */
-        self._lassoFired = true;
-        setTimeout(() => { self._lassoFired = false; }, 100);
-        onComplete(poly);
-      }
+      event.preventDefault();
+      _extendLasso(event);
+    });
+
+    this.svg.on('touchend.lasso touchcancel.lasso', function(event) {
+      event.preventDefault();
+      _endLasso();
     });
   }
 
@@ -1558,6 +1656,8 @@ class PubVis {
     if (!this._lassoOn) return;
     this._lassoOn = false;
     this.svg.on('mousedown.lasso', null);
+    this.svg.on('touchstart.lasso', null).on('touchmove.lasso', null)
+      .on('touchend.lasso', null).on('touchcancel.lasso', null);
     d3.select(window).on('mousemove.lasso', null).on('mouseup.lasso', null);
     this.g.selectAll('.pv-lasso').remove();
   }
