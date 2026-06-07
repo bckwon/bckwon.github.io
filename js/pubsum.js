@@ -1320,19 +1320,23 @@ class PubVis {
       this.netG.transition().duration(T.LOOP_NET_FADE).style('opacity', 0);
       this._sched(() => {
         this.netG.selectAll('*').remove();
-        /* move blocks back to centre in black */
-        const cx = this.W / 2, cy = this.H / 2;
-        this.blocks.transition().duration(T.LOOP_RETURN)
+        /* move blocks back to scene-1 spread positions (mirroring _scene1) */
+        this.blocks.transition().delay((d, i) => i * T.BLOCK_STAGGER).duration(T.LOOP_RETURN)
           .attr('fill', this._c('blockFill')).attr('stroke', this._c('blockStroke')).attr('stroke-width', 0.5)
-          .attr('d', () => this._sq(cx, cy, PubVis.BS, PubVis.BS));
+          .attr('opacity', 0.88)
+          .attr('d', d => this._sq(d._s1x, d._s1y, PubVis.BS, PubVis.BS));
         this._sched(() => {
+          this._showAnnotation([
+            `${this.data.length} publications & counting`,
+            'A journey of research with bright collaborators over the years',
+          ], { y: this.H * 0.1 });
           this.currentScene = 1;
           this._sceneReady = true;
           if (this.playState === 'playing') {
             this._schedule(() => this._nextScene(), T.SCENE_PAUSE);
           }
           this._updateUI();
-        }, T.LOOP_RETURN + 100);
+        }, this.data.length * T.BLOCK_STAGGER + T.LOOP_RETURN + 100);
       }, T.LOOP_NET_FADE + 50);
     });
   }
