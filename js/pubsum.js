@@ -514,11 +514,29 @@ class PubVis {
      SECTION: Path helpers
   ══════════════════════════════════════════════════════════════════════ */
 
+  /* All three path helpers share the same command structure (M + 4×C + Z = 26 numbers)
+     so D3 can tween numerically between any two of them during transitions. */
+
+  /* Square centered at (cx, cy) */
   _sq(cx, cy, w, h) {
     const hw = w / 2, hh = h / 2;
-    return `M ${cx-hw},${cy-hh} L ${cx+hw},${cy-hh} L ${cx+hw},${cy+hh} L ${cx-hw},${cy+hh} Z`;
+    const [x0, y0, x1, y1] = [cx - hw, cy - hh, cx + hw, cy + hh];
+    return `M ${x0},${y0} C ${x0},${y0} ${x1},${y0} ${x1},${y0} ` +
+           `C ${x1},${y0} ${x1},${y1} ${x1},${y1} ` +
+           `C ${x1},${y1} ${x0},${y1} ${x0},${y1} ` +
+           `C ${x0},${y1} ${x0},${y0} ${x0},${y0} Z`;
   }
 
+  /* Rectangle from top-left corner (for bar chart bars) */
+  _rect(x, y, w, h) {
+    const [x1, y1] = [x + w, y + h];
+    return `M ${x},${y} C ${x},${y} ${x1},${y} ${x1},${y} ` +
+           `C ${x1},${y} ${x1},${y1} ${x1},${y1} ` +
+           `C ${x1},${y1} ${x},${y1} ${x},${y1} ` +
+           `C ${x},${y1} ${x},${y} ${x},${y} Z`;
+  }
+
+  /* Circle centered at (cx, cy) — same 4-C structure enables morphing */
   _circle(cx, cy, r) {
     const k = 0.5523 * r;
     return `M ${cx},${cy-r} C ${cx+k},${cy-r} ${cx+r},${cy-k} ${cx+r},${cy} ` +
@@ -534,12 +552,10 @@ class PubVis {
   _createBlocks() {
     const BS = PubVis.BS;
     const cx0 = this.W / 2, cy0 = this.H / 2;
-    this.blocks = this.blocksG.selectAll('rect.pv-block')
-      .data(this.data).join('rect')
+    this.blocks = this.blocksG.selectAll('path.pv-block')
+      .data(this.data).join('path')
         .attr('class', 'pv-block')
-        .attr('x', cx0 - BS/2).attr('y', cy0 - BS/2)
-        .attr('width', BS).attr('height', BS)
-        .attr('rx', 0).attr('ry', 0)
+        .attr('d', this._sq(cx0, cy0, BS, BS))
         .attr('fill', this._c('blockFill')).attr('stroke', this._c('blockStroke')).attr('stroke-width', 0.5)
         .attr('opacity', 0).attr('data-id', d => d.id)
         .style('cursor', 'default');
@@ -816,11 +832,10 @@ class PubVis {
 
   /* ── Jump to a scene instantly ────────────────────────────────────── */
   _jumpToScene(n) {
-    clearTimeout(this._timer);
-    this.blocks.interrupt();
-    this.xAxisG.interrupt(); this.yAxisG.interrupt();
-    this.legendG.interrupt(); this.annotG.interrupt();
-    this.netG.interrupt();
+    this._animGen++;
+    clearTimeout(this._timer); this._timer = null;
+    this._netAnimRunning = false;
+    this._interruptAll();
 
     this.playState = 'stopped';
     this.currentScene = n;
@@ -899,23 +914,16 @@ class PubVis {
   _snapS1() {
     const BS = PubVis.BS;
     this.blocks
-      .attr('x', d => d._s1x - BS/2).attr('y', d => d._s1y - BS/2)
-      .attr('width', BS).attr('height', BS).attr('rx', 0).attr('ry', 0)
+      .attr('d', d => this._sq(d._s1x, d._s1y, BS, BS))
       .attr('fill', this._c('blockFill')).attr('stroke', this._c('blockStroke')).attr('stroke-width', 0.5)
       .attr('opacity', 0.88);
-    this._showAnnotation([
-      `${this.data.length} publications & counting`,
-      'A journey of research with bright collaborators over the years',
-    ], { y: this.H * 0.1 });
-    this.annotG.interrupt().style('opacity', 1);
   }
 
   _snapS2() {
     this._ensureScene2Layout();
     const BS = PubVis.BS;
     this.blocks
-      .attr('x', d => d._tx - BS/2).attr('y', d => d._ty - BS/2)
-      .attr('width', BS).attr('height', BS).attr('rx', 0).attr('ry', 0)
+      .attr('d', d => this._sq(d._tx, d._ty, BS, BS))
       .attr('fill', this._c('blockFill')).attr('stroke', this._c('blockStroke')).attr('stroke-width', 0.5)
       .attr('opacity', 0.88);
     this._drawXAxis(this.xScale2, 'Year');
@@ -927,8 +935,7 @@ class PubVis {
     this._ensureScene2Layout();
     const BS = PubVis.BS;
     this.blocks
-      .attr('x', d => d._tx - BS/2).attr('y', d => d._ty - BS/2)
-      .attr('width', BS).attr('height', BS).attr('rx', 0).attr('ry', 0)
+      .attr('d', d => this._sq(d._tx, d._ty, BS, BS))
       .attr('fill', d => this._venueColor(d.venue))
       .attr('stroke', d => d3.color(this._venueColor(d.venue)).darker(0.6))
       .attr('stroke-width', 0.5).attr('opacity', 0.88);
@@ -955,11 +962,12 @@ class PubVis {
       .attr('fill', d => this._venueColor(d.venue))
       .attr('stroke', d => d3.color(this._venueColor(d.venue)).darker(0.6))
       .attr('stroke-width', 0.5).attr('opacity', 0.88)
-      .attr('rx', 0).attr('ry', 0)
-      .attr('x', d => this.xScale4(d._rank) - bw/2)
-      .attr('y', d => this.yScale4(Math.max(0, d.citation_count)))
-      .attr('width', bw)
-      .attr('height', d => this.H - this.yScale4(Math.max(0, d.citation_count)));
+      .attr('d', d => this._rect(
+        this.xScale4(d._rank) - bw/2,
+        this.yScale4(Math.max(0, d.citation_count)),
+        bw,
+        this.H - this.yScale4(Math.max(0, d.citation_count))
+      ));
     const xBand = d3.scaleLinear().domain([1, this.data.length]).range([this._barW, this.W - this._barW]);
     this._drawXAxis(xBand, '← more cited  ·  rank  ·  less cited →');
     this._drawYAxis(this.yScale4, 'Citations');
@@ -973,8 +981,7 @@ class PubVis {
     const cc = PV_COLORS.cluster;
     const BS = PubVis.BS;
     this.blocks
-      .attr('x', d => this.xScaleU(d.x) - BS/2).attr('y', d => this.yScaleU(d.y) - BS/2)
-      .attr('width', BS).attr('height', BS).attr('rx', BS/2).attr('ry', BS/2)
+      .attr('d', d => this._circle(this.xScaleU(d.x), this.yScaleU(d.y), BS/2))
       .attr('fill', d => cc[d.cluster_index])
       .attr('stroke', d => d3.color(cc[d.cluster_index]).darker(0.6))
       .attr('stroke-width', 0.8).attr('opacity', 0.85);
@@ -997,8 +1004,7 @@ class PubVis {
     this._ensureScene6Layout();
     const BS = PubVis.BS;
     this.blocks
-      .attr('x', d => d._topX - BS/2).attr('y', d => d._topY - BS/2)
-      .attr('width', BS).attr('height', BS).attr('rx', 0).attr('ry', 0)
+      .attr('d', d => this._sq(d._topX, d._topY, BS, BS))
       .attr('fill', this._c('blockFill')).attr('stroke', this._c('blockStroke')).attr('stroke-width', 0.5)
       .attr('opacity', 0.9);
     this._buildFullNetwork();
@@ -1062,8 +1068,7 @@ class PubVis {
     const _bs1 = PubVis.BS;
     this.blocks.transition().delay((d, i) => i * T.BLOCK_STAGGER).duration(400)
       .attr('opacity', 0.88)
-      .attr('x', d => d._s1x - _bs1/2).attr('y', d => d._s1y - _bs1/2)
-      .attr('width', _bs1).attr('height', _bs1).attr('rx', 0).attr('ry', 0);
+      .attr('d', d => this._sq(d._s1x, d._s1y, _bs1, _bs1));
     this._sched(() => {
       this._showAnnotation([
         `${this.data.length} publications & counting`,
@@ -1085,8 +1090,7 @@ class PubVis {
       this._drawYAxis(this.yScale2, '# publications');
       const _bs2 = PubVis.BS;
       this.blocks.transition().delay((d, i) => i * 12).duration(T.BLOCK_MOVE)
-        .attr('x', d => d._tx - _bs2/2).attr('y', d => d._ty - _bs2/2)
-        .attr('width', _bs2).attr('height', _bs2).attr('rx', 0).attr('ry', 0);
+        .attr('d', d => this._sq(d._tx, d._ty, _bs2, _bs2));
 
       const years = [...new Set(this.data.map(d => d.year))].sort((a, b) => a - b);
       this._sched(() => {
@@ -1134,11 +1138,12 @@ class PubVis {
         this._sched(() => {
           this.blocks.transition().delay(d => d._rank * 7).duration(T.BAR_MOVE)
             .attr('fill', d => this._venueColor(d.venue))
-            .attr('rx', 0).attr('ry', 0)
-            .attr('x', d => this.xScale4(d._rank) - bw/2)
-            .attr('y', d => this.yScale4(Math.max(0, d.citation_count)))
-            .attr('width', bw)
-            .attr('height', d => this.H - this.yScale4(Math.max(0, d.citation_count)));
+            .attr('d', d => this._rect(
+              this.xScale4(d._rank) - bw/2,
+              this.yScale4(Math.max(0, d.citation_count)),
+              bw,
+              this.H - this.yScale4(Math.max(0, d.citation_count))
+            ));
           const total = d3.sum(this.data, d => d.citation_count);
           const topPub = [...this.data].sort((a, b) => b.citation_count - a.citation_count)[0];
           this._sched(() => {
@@ -1162,12 +1167,9 @@ class PubVis {
         this._ensureScene5Layout();
         const cc = PV_COLORS.cluster;
         const BS = PubVis.BS;
-        /* single transition: move to UMAP positions, round to circle, recolor — no fade */
+        /* single transition: move to UMAP positions, morph to circle, recolor — no fade */
         this.blocks.transition().duration(T.BLOCK_MOVE)
-          .attr('x', d => this.xScaleU(d.x) - BS/2)
-          .attr('y', d => this.yScaleU(d.y) - BS/2)
-          .attr('width', BS).attr('height', BS)
-          .attr('rx', BS/2).attr('ry', BS/2)
+          .attr('d', d => this._circle(this.xScaleU(d.x), this.yScaleU(d.y), BS/2))
           .attr('fill', d => cc[d.cluster_index])
           .attr('stroke', d => d3.color(cc[d.cluster_index]).darker(0.6))
           .attr('stroke-width', 0.8)
@@ -1195,12 +1197,10 @@ class PubVis {
       this._ensureScene6Layout();
       const BS = PubVis.BS;
 
-      /* single transition: move to grid positions, revert circles to squares, go black */
+      /* single transition: move to grid positions, morph circles back to squares, go black */
       this.blocks.transition().duration(T.BLOCK_MOVE)
         .attr('fill', this._c('blockFill')).attr('stroke', this._c('blockStroke')).attr('stroke-width', 0.5)
-        .attr('x', d => d._topX - BS/2).attr('y', d => d._topY - BS/2)
-        .attr('width', BS).attr('height', BS)
-        .attr('rx', 0).attr('ry', 0)
+        .attr('d', d => this._sq(d._topX, d._topY, BS, BS))
         .attr('opacity', 0.9);
       this._sched(() => this._runNetworkAnimation(), T.BLOCK_MOVE + 100);
     });
@@ -1285,7 +1285,7 @@ class PubVis {
       self._sched(() => {
         self._netAnimStartIdx = pub.idx + 1;  /* track for next resume */
 
-        d3.select(self.blocksG.selectAll('rect.pv-block').nodes()[pub.idx])
+        d3.select(self.blocksG.selectAll('path.pv-block').nodes()[pub.idx])
           .transition().duration(Math.min(interval * 0.7, 280))
           .attr('fill', self._c('blockReveal')).attr('stroke', self._c('blockRevealStroke')).attr('stroke-width', 1);
 
@@ -1343,8 +1343,7 @@ class PubVis {
         this.blocks.transition().delay((d, i) => i * T.BLOCK_STAGGER).duration(T.LOOP_RETURN)
           .attr('fill', this._c('blockFill')).attr('stroke', this._c('blockStroke')).attr('stroke-width', 0.5)
           .attr('opacity', 0.88)
-          .attr('x', d => d._s1x - _bslb/2).attr('y', d => d._s1y - _bslb/2)
-          .attr('width', _bslb).attr('height', _bslb).attr('rx', 0).attr('ry', 0);
+          .attr('d', d => this._sq(d._s1x, d._s1y, _bslb, _bslb));
         this._sched(() => {
           this._showAnnotation([
             `${this.data.length} publications & counting`,
@@ -1453,7 +1452,7 @@ class PubVis {
     /* clicking on empty SVG space clears any active filter */
     this.svg.on('click.filter', (event) => {
       if (this._lassoFired || this._playPausedByClick) return;
-      if (event.target.closest('rect.pv-block, .pv-node, circle')) return;
+      if (event.target.closest('path.pv-block, .pv-node, circle')) return;
       this._clearFilter();
     });
     this.blocks.style('cursor', n <= 5 ? 'pointer' : 'default');
@@ -1484,7 +1483,7 @@ class PubVis {
       self._playPausedByClick = true;
       setTimeout(() => { self._playPausedByClick = false; }, 100);
 
-      const block = event.target.closest('rect.pv-block');
+      const block = event.target.closest('path.pv-block');
       const pNode = event.target.closest('.pv-node');
 
       if (block && !self._lassoFired) {
@@ -1528,7 +1527,7 @@ class PubVis {
       setTimeout(() => { self._playPausedByClick = false; }, 100);
 
       const touch = event.touches[0];
-      const block = touch.target.closest('rect.pv-block');
+      const block = touch.target.closest('path.pv-block');
       const pNode = touch.target.closest('.pv-node');
 
       if (block && !self._lassoFired) {
@@ -1702,7 +1701,7 @@ class PubVis {
     this.svg.on('mousedown.lasso', function(event) {
       if (event.button !== 0) return;
       if (event.target.closest('.pv-node')) return;
-      if (!allowOnBlocks && event.target.closest('rect.pv-block')) return;
+      if (!allowOnBlocks && event.target.closest('path.pv-block')) return;
       event.preventDefault();
       _startLasso(event);
     });
@@ -1733,7 +1732,7 @@ class PubVis {
     this.svg.on('touchstart.lasso', function(event) {
       if (event.touches.length !== 1) return;
       if (event.target.closest('.pv-node')) return;
-      if (!allowOnBlocks && event.target.closest('rect.pv-block')) return;
+      if (!allowOnBlocks && event.target.closest('path.pv-block')) return;
       event.preventDefault();
       _touchOrigin = _getPoint(event);
       pts = [_touchOrigin]; // record start — lpath created only after drag threshold
@@ -1767,7 +1766,7 @@ class PubVis {
         /* Brief tap (no drag) → treat as touch-out: clear filter if on empty space */
         pts = [];
         const touch = event.changedTouches && event.changedTouches[0];
-        if (touch && !touch.target.closest('rect.pv-block, .pv-node, circle')) {
+        if (touch && !touch.target.closest('path.pv-block, .pv-node, circle')) {
           if (!self._lassoFired) self._clearFilter();
         }
       }
