@@ -5,12 +5,20 @@
     <link>https://bckwon.com/publication/</link>
       <atom:link href="https://bckwon.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Mon, 14 Sep 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bckwon.com/media/icon_hu_abcff2b67f1708c3.png</url>
       <title>Publications</title>
       <link>https://bckwon.com/publication/</link>
     </image>
+    
+    <item>
+      <title>ASAP: Visual analytics for identifying and analyzing image patterns in AI-generated images</title>
+      <link>https://bckwon.com/publication/asap/</link>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/asap/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Multi-view biomedical foundation models for molecule-target and property prediction</title>
