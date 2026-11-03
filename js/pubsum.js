@@ -800,6 +800,15 @@ class PubVis {
 
   _venueColor(v) { return PV_COLORS.venue[v] || PV_COLORS.venueOther; }
 
+  /* Counts split by review status, e.g. "62 peer-reviewed publications + 4 preprints".
+     Preprints are rows whose pub_type is 'preprint' (arXiv, bioRxiv, …). */
+  _pubCountLabel(rows) {
+    const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
+    const pre  = rows.filter(d => d.pub_type === 'preprint').length;
+    const peer = plural(rows.length - pre, 'peer-reviewed publication');
+    return pre ? `${peer} + ${plural(pre, 'preprint')}` : peer;
+  }
+
   /* ══════════════════════════════════════════════════════════════════════
      SECTION: Scene runner (state machine)
   ══════════════════════════════════════════════════════════════════════ */
@@ -927,7 +936,7 @@ class PubVis {
       .attr('fill', this._c('blockFill')).attr('stroke', this._c('blockStroke')).attr('stroke-width', 0.5)
       .attr('opacity', 0.88);
     this._drawXAxis(this.xScale2, 'Year');
-    this._drawYAxis(this.yScale2, '# publications');
+    this._drawYAxis(this.yScale2, '# papers');
     this.xAxisG.style('opacity', 1); this.yAxisG.style('opacity', 1);
   }
 
@@ -940,7 +949,7 @@ class PubVis {
       .attr('stroke', d => d3.color(this._venueColor(d.venue)).darker(0.6))
       .attr('stroke-width', 0.5).attr('opacity', 0.88);
     this._drawXAxis(this.xScale2, 'Year');
-    this._drawYAxis(this.yScale2, '# publications');
+    this._drawYAxis(this.yScale2, '# papers');
     this.xAxisG.style('opacity', 1); this.yAxisG.style('opacity', 1);
     const entries = this._venueLegendEntries();
     this.legendG.selectAll('*').remove();
@@ -1071,7 +1080,7 @@ class PubVis {
       .attr('d', d => this._sq(d._s1x, d._s1y, _bs1, _bs1));
     this._sched(() => {
       this._showAnnotation([
-        `${this.data.length} publications & counting`,
+        `${this._pubCountLabel(this.data)} & counting`,
         'A journey of research with bright collaborators over the years',
       ], { y: this.H * 0.1 });
       this._sched(() => this._sceneComplete(), 1200);
@@ -1081,26 +1090,29 @@ class PubVis {
   _scene2() {
     this.currentScene = 2; this._sceneReady = false;
     this._updateUI();
-    this._ensureScene2Layout();
+    /* fade out the previous scene's text box before moving on */
+    this._hideAnnotation(() => {
+      this._ensureScene2Layout();
 
-    this._drawXAxis(this.xScale2, 'Year');
-    /* on resume the x-axis is already visible — skip the draw-wait preamble */
-    const xReady2 = +this.xAxisG.style('opacity') > 0.5;
-    this._sched(() => {
-      this._drawYAxis(this.yScale2, '# publications');
-      const _bs2 = PubVis.BS;
-      this.blocks.transition().delay((d, i) => i * 12).duration(T.BLOCK_MOVE)
-        .attr('d', d => this._sq(d._tx, d._ty, _bs2, _bs2));
-
-      const years = [...new Set(this.data.map(d => d.year))].sort((a, b) => a - b);
+      this._drawXAxis(this.xScale2, 'Year');
+      /* on resume the x-axis is already visible — skip the draw-wait preamble */
+      const xReady2 = +this.xAxisG.style('opacity') > 0.5;
       this._sched(() => {
-        this._showAnnotation([
-          `${this.data.length} selected publications`,
-          `spanning ${years[0]} – ${years[years.length - 1]}`,
-        ], { y: this.H * 0.28 });
-        this._sched(() => this._sceneComplete(), 1200);
-      }, this.data.length * 12 + T.BLOCK_MOVE + 200);
-    }, xReady2 ? 0 : T.AXIS_DELAY);
+        this._drawYAxis(this.yScale2, '# papers');
+        const _bs2 = PubVis.BS;
+        this.blocks.transition().delay((d, i) => i * 12).duration(T.BLOCK_MOVE)
+          .attr('d', d => this._sq(d._tx, d._ty, _bs2, _bs2));
+
+        const years = [...new Set(this.data.map(d => d.year))].sort((a, b) => a - b);
+        this._sched(() => {
+          this._showAnnotation([
+            this._pubCountLabel(this.data),
+            `spanning ${years[0]} – ${years[years.length - 1]}`,
+          ], { y: this.H * 0.28 });
+          this._sched(() => this._sceneComplete(), 1200);
+        }, this.data.length * 12 + T.BLOCK_MOVE + 200);
+      }, xReady2 ? 0 : T.AXIS_DELAY);
+    });
   }
 
   _scene3() {
@@ -1114,9 +1126,14 @@ class PubVis {
         .attr('stroke-width', 0.5);
       this._sched(() => {
         this._showLegend(this._venueLegendEntries());
+        const preprints = this.data.filter(d => d.pub_type === 'preprint');
+        const servers = [...new Set(preprints.map(d => d.venue))].join(' · ');
         this._showAnnotation([
-          'Publications across diverse venues',
+          'Peer-reviewed work across diverse venues',
           'TVCG · CHI · VIS · EuroVis · JMIR and more',
+          ...(preprints.length
+            ? [`plus ${preprints.length} preprint${preprints.length === 1 ? '' : 's'} on ${servers}`]
+            : []),
         ], { y: this.H * 0.28 });
         this._sched(() => this._sceneComplete(), 800);
       }, T.COLOR_CHANGE + 100);
@@ -1346,7 +1363,7 @@ class PubVis {
           .attr('d', d => this._sq(d._s1x, d._s1y, _bslb, _bslb));
         this._sched(() => {
           this._showAnnotation([
-            `${this.data.length} publications & counting`,
+            `${this._pubCountLabel(this.data)} & counting`,
             'A journey of research with bright collaborators over the years',
           ], { y: this.H * 0.1 });
           this.currentScene = 1;
@@ -1421,12 +1438,12 @@ class PubVis {
   }
 
   _showAuthorTooltip(d, event) {
-    const pubCount = this.data.filter(p =>
+    const coPubs = this.data.filter(p =>
       p.authors.split(';').map(a => a.trim()).includes(d.id)
-    ).length;
+    );
     this.tooltipEl.html(`
       <div style="font-weight:600;font-size:11.5px;color:${this._c('tooltipTitle')}">${d.id}</div>
-      <div style="color:${this._c('tooltipSub')};font-size:10.5px;margin-top:2px;">${pubCount} co-authored publications</div>
+      <div style="color:${this._c('tooltipSub')};font-size:10.5px;margin-top:2px;">Co-authored ${this._pubCountLabel(coPubs)}</div>
       <div style="color:${this._c('tooltipMuted')};font-size:10px;margin-top:2px;">Click to filter publication list</div>
     `);
     this.tooltipEl.style('display', 'block');
@@ -1854,7 +1871,7 @@ class PubVis {
     if (restCount > 0) rows.push({ color: this._c('annotSub'), label: `+ ${restCount} more authors` });
 
     this._showRichAnnotation(
-      `${sel.size} publications selected`,
+      `${this._pubCountLabel(selData)} selected`,
       rows,
       { y: this._netTop + (this.H - this._netTop) * 0.12 }
     );

@@ -31,6 +31,30 @@
     </item>
     
     <item>
+      <title>GENET: AI-Powered Interactive Visualization Workflows to Explore Biomedical Entity Networks</title>
+      <link>https://bckwon.com/publication/genet/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/genet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STAR-VAE: A Scalable Latent-Variable Transformer for Controllable Molecular Generation</title>
+      <link>https://bckwon.com/publication/star_vae/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/star_vae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BMFM-DNA: A SNP-aware DNA foundation model to capture variant effects</title>
+      <link>https://bckwon.com/publication/bmfm_dna/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/bmfm_dna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Critical Analysis of the Usage of Dimensionality Reduction in Four Domains</title>
       <link>https://bckwon.com/publication/dimensionality_reduction/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
@@ -67,6 +91,14 @@
       <link>https://bckwon.com/publication/mimicri/</link>
       <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://bckwon.com/publication/mimicri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Latent Space Explorer: Visual Analytics for Multimodal Latent Space Exploration</title>
+      <link>https://bckwon.com/publication/latent_space_explorer/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/latent_space_explorer/</guid>
       <description></description>
     </item>
     

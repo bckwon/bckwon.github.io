@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preprint | Bum Chul Kwon</title>
+    <link>https://bckwon.com/publication_types/preprint/</link>
+      <atom:link href="https://bckwon.com/publication_types/preprint/index.xml" rel="self" type="application/rss+xml" />
+    <description>Preprint</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://bckwon.com/media/icon_hu_4d78b65ef7a9b976.png</url>
+      <title>Preprint</title>
+      <link>https://bckwon.com/publication_types/preprint/</link>
+    </image>
+    
+    <item>
+      <title>GENET: AI-Powered Interactive Visualization Workflows to Explore Biomedical Entity Networks</title>
+      <link>https://bckwon.com/publication/genet/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/genet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STAR-VAE: A Scalable Latent-Variable Transformer for Controllable Molecular Generation</title>
+      <link>https://bckwon.com/publication/star_vae/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/star_vae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BMFM-DNA: A SNP-aware DNA foundation model to capture variant effects</title>
+      <link>https://bckwon.com/publication/bmfm_dna/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/bmfm_dna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Latent Space Explorer: Visual Analytics for Multimodal Latent Space Exploration</title>
+      <link>https://bckwon.com/publication/latent_space_explorer/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/latent_space_explorer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joseph a Morrone | Bum Chul Kwon</title>
+    <link>https://bckwon.com/authors/joseph-a-morrone/</link>
+      <atom:link href="https://bckwon.com/authors/joseph-a-morrone/index.xml" rel="self" type="application/rss+xml" />
+    <description>Joseph a Morrone</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Tue, 04 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>STAR-VAE: A Scalable Latent-Variable Transformer for Controllable Molecular Generation</title>
+      <link>https://bckwon.com/publication/star_vae/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://bckwon.com/publication/star_vae/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
